@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./style/bootstrap-material-design.min.css";
 import "./style/index.css";
+
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import promise from "redux-promise";

@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 
 import Navigation from "./Navigation";
-import Footer from "./Footer";
 
-export default class Features extends Component {
+export default class Contact extends Component {
   render() {
     return (
       <div>
         <Navigation />
-        <h2>Features</h2>
-        <Footer />
+        <h2>Contact</h2>
       </div>
     );
   }

@@ -4,18 +4,54 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
-.div1 {
-  height: 400px;
-  background: #2da8d6;
-}
-
-.div2 {
-  height: 400px;
-  background: #8edb23;
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1250px;
+  }
 }
 
 /* ********* NAVBAR *********   */
 
 .navbar-home {
   background: #1470bf;
+}
+
+/* ********* FOOTER *********   */
+
+.btn-footer {
+  background: #5d9ef2;
+  color: #fff;
+  font-size: 2.125rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-decoration: none;
+}
+
+.btn-footer:hover {
+  color: #00468e;
+  background: #fff;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.footer-text {
+  margin-top: 2rem;
+}
+
+.footer-text a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-text a :hover {
+  background: rgba(93, 158, 242, 0.3);
+  transition: 0.25s;
+}
+
+.footer-text-header {
+  font-size: 1.5rem;
+}
+
+.footer-media {
+  background: rgba(93, 158, 242, 0.2);
 }
