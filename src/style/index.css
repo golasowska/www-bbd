@@ -1,5 +1,21 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+.div1 {
+  height: 400px;
+  background: #2da8d6;
+}
+
+.div2 {
+  height: 400px;
+  background: #8edb23;
+}
+
+/* ********* NAVBAR *********   */
+
+.navbar-home {
+  background: #1470bf;
 }
