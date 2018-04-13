@@ -4,6 +4,33 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
+.light-blue {
+  color: #5d9ef2;
+}
+
+.dark-blue {
+  color: #001c33;
+}
+
+.red-base {
+  color: #ff1235;
+}
+
+.white-font {
+  color: #fff;
+}
+
+.fake-hight {
+  min-height: 10px;
+  background: #00468e;
+}
+
+@media (max-width: 768px) {
+  .fake-hight {
+    display: none;
+  }
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1250px;
@@ -14,6 +41,84 @@ body {
 
 .navbar-home {
   background: #1470bf;
+}
+
+/* ********* HOME *********   */
+
+.quote {
+  font-size: 3rem;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.migrate {
+  font-size: 1rem;
+  color: #ff1235;
+  border: 1px solid #ff1235;
+  border-radius: 2px;
+  padding: 0.5rem;
+}
+
+.migrate:hover {
+  background: #ff1235;
+  transition: 0.5s;
+  color: #fff;
+  box-shadow: 1px 1px #5d9ef2, 2px 2px #5d9ef2, 3px 3px #5d9ef2;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+
+.logo-big {
+  opacity: 0.2;
+}
+
+.logo-big:hover {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* ********* HOME FEATURES*********   */
+
+.home-section-header,
+.home-section-more {
+  background: #00468e;
+}
+
+.home-section-header {
+  font-size: 2.5rem;
+  padding-left: 4rem;
+}
+
+.home-section-more a {
+  text-decoration: none;
+  color: #ff1235;
+  padding-right: 4rem;
+}
+
+.home-section-more a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home-feature-item {
+  background: #00468e;
+  color: #fff;
+}
+
+.feature-icon {
+  padding-top: 3rem;
+}
+
+.feature-name {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+.home-feature-item:hover {
+  background: rgba(0, 70, 142, 0.9);
+  transition: 0.5s;
 }
 
 /* ********* FOOTER *********   */
@@ -34,10 +139,6 @@ body {
   text-decoration: none;
 }
 
-.footer-text {
-  margin-top: 2rem;
-}
-
 .footer-text a {
   color: #000;
   text-decoration: none;
@@ -53,9 +154,65 @@ body {
 }
 
 .footer-media {
+  color: #00468e;
   background: rgba(93, 158, 242, 0.2);
 }
 
 .copyright {
   font-size: 0.6rem;
+}
+
+/* ********* ANIMATIONS *********   */
+
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 }

@@ -18,11 +18,11 @@ class Footer extends Component {
     return (
       <div className="">
         <div className="row">
-          <Link to="/newsletter" className="col-5 btn-footer text-center">
+          <Link to="/newsletter" className="col-4 btn-footer text-center">
             Newsletter >
           </Link>
 
-          <div className="col-6 btn-footer text-center">Trading ></div>
+          <div className="col-7 btn-footer text-center">Trading ></div>
         </div>
 
         <div
@@ -58,7 +58,7 @@ class Footer extends Component {
               color: this.props.fontColor
             }}
           >
-            <div className="text-left footer-text-header">
+            <div className="text-left footer-text-header pt-4">
               <p>Resources</p>
             </div>
             <div className="text-left">
@@ -89,7 +89,7 @@ class Footer extends Component {
               color: this.props.fontColor
             }}
           >
-            <div className="text-left footer-text-header">
+            <div className="text-left footer-text-header pt-4">
               <p>About & Contact</p>
             </div>
             <div className="text-left">
