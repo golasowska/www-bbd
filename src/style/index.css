@@ -55,3 +55,7 @@ body {
 .footer-media {
   background: rgba(93, 158, 242, 0.2);
 }
+
+.copyright {
+  font-size: 0.6rem;
+}

@@ -1,31 +1,63 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { connect } from "react-redux";
 
-import logo_blue from "../assets/images/bbod_no_tagline.svg";
-
-export default class Footer extends Component {
+class Footer extends Component {
+  displayMedia = () => {
+    return this.props.media.map(logo => {
+      return (
+        <div key={logo.name} className="pr-4">
+          <a href={logo.href} target={logo.target}>
+            <img src={logo.src} width={logo.width} alt={logo.alt} />
+          </a>
+        </div>
+      );
+    });
+  };
   render() {
     return (
-      <div className="container">
+      <div className="">
         <div className="row">
-          <Link to="/newsletter" className="col-5 btn-footer">
+          <Link to="/newsletter" className="col-5 btn-footer text-center">
             Newsletter >
           </Link>
 
-          <div className="col-6 btn-footer">Trading ></div>
+          <div className="col-6 btn-footer text-center">Trading ></div>
         </div>
 
-        <div className="row footer-text">
-          <div className="col-5">
+        <div
+          className="row footer-text"
+          style={{
+            color: this.props.fontColor
+          }}
+        >
+          <div
+            className="col-md-5"
+            style={{
+              background: this.props.bgColor,
+              color: this.props.fontColor
+            }}
+          >
             <div className="text-center">
-              <img src={logo_blue} width="199.947" height="90.001" alt="bbod" />
+              <img
+                src={this.props.logo}
+                width="199.947"
+                height="90.001"
+                alt="bbod"
+              />
             </div>
             <div className="text-center">
               <p>BLOCKACHAIN BOARD OF DERIVATIVES</p>
             </div>
           </div>
 
-          <div className="col-3">
+          <div
+            className="col-md-3"
+            style={{
+              background: this.props.bgColor,
+              color: this.props.fontColor
+            }}
+          >
             <div className="text-left footer-text-header">
               <p>Resources</p>
             </div>
@@ -33,7 +65,12 @@ export default class Footer extends Component {
               <p>Quick Guide</p>
             </div>
             <div className="text-left">
-              <Link to="/products">
+              <Link
+                to="/products"
+                style={{
+                  color: this.props.fontColor
+                }}
+              >
                 <p>Products</p>
               </Link>
             </div>
@@ -45,17 +82,33 @@ export default class Footer extends Component {
             </div>
           </div>
 
-          <div className="col-3">
+          <div
+            className="col-md-3"
+            style={{
+              background: this.props.bgColor,
+              color: this.props.fontColor
+            }}
+          >
             <div className="text-left footer-text-header">
               <p>About & Contact</p>
             </div>
             <div className="text-left">
-              <Link to="/features">
+              <Link
+                to="/features"
+                style={{
+                  color: this.props.fontColor
+                }}
+              >
                 <p>Features</p>
               </Link>
             </div>
             <div className="text-left">
-              <Link to="/about">
+              <Link
+                to="/about"
+                style={{
+                  color: this.props.fontColor
+                }}
+              >
                 <p>About BBOD</p>
               </Link>
             </div>
@@ -63,21 +116,38 @@ export default class Footer extends Component {
               <p>News</p>
             </div>
             <div className="text-left">
-              <Link to="/contact">
+              <Link
+                to="/contact"
+                style={{
+                  color: this.props.fontColor
+                }}
+              >
                 <p>Contact Us</p>
               </Link>
             </div>
           </div>
         </div>
-        <div className="row footer-media">
+        <div className="row footer-media align-items-center">
           <div className="col-5">
-            <p>
+            <p className="copyright m-3">
               Copyright © 2018 Digital Securities Exchange Limited. All rights
               reserved.
             </p>
           </div>
+          <div className="col-2">
+            <p className="follow m-3">Follow Us</p>
+          </div>
+          <div className="col-4 text-center d-flex">{this.displayMedia()}</div>
         </div>
       </div>
     );
   }
 }
+
+function mapStateToProps(state) {
+  return {
+    media: state.media
+  };
+}
+
+export default connect(mapStateToProps)(Footer);
