@@ -31,6 +31,16 @@ body {
   }
 }
 
+.footer-pink-fake {
+  min-height: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-pink-fake {
+    display: none;
+  }
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1250px;
@@ -40,6 +50,14 @@ body {
 /* ********* NAVBAR *********   */
 
 .navbar-home {
+  background: #1470bf;
+}
+
+.background-blue-2 {
+  background: #00468e;
+}
+
+.background-blue-1 {
   background: #1470bf;
 }
 
@@ -81,11 +99,6 @@ body {
 
 /* ********* HOME FEATURES*********   */
 
-.home-section-header,
-.home-section-more {
-  background: #00468e;
-}
-
 .home-section-header {
   font-size: 2.5rem;
   padding-left: 4rem;
@@ -119,6 +132,31 @@ body {
 .home-feature-item:hover {
   background: rgba(0, 70, 142, 0.9);
   transition: 0.5s;
+}
+
+/* ********* HOME ABOUT*********   */
+
+.quote-about {
+  font-size: 2rem;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.quote-about-desc {
+  font-size: 1rem;
+  background: rgba(255, 96, 97, 0.5);
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/* ********* HOME PRODUCTS*********   */
+
+.read-more-white a {
+  color: #fff;
+}
+
+.read-more-white a:hover {
+  color: #ff1235;
 }
 
 /* ********* FOOTER *********   */
