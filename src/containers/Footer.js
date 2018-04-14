@@ -18,11 +18,11 @@ class Footer extends Component {
     return (
       <div className="">
         <div className="row">
-          <Link to="/newsletter" className="col-4 btn-footer text-center">
+          <Link to="/newsletter" className="col-md-4 btn-footer text-center">
             Newsletter >
           </Link>
 
-          <div className="col-7 btn-footer text-center">Trading ></div>
+          <div className="col-md-7 btn-footer text-center">Trading ></div>
         </div>
 
         <div
@@ -128,16 +128,18 @@ class Footer extends Component {
           </div>
         </div>
         <div className="row footer-media align-items-center">
-          <div className="col-5">
+          <div className="col col-md-5">
             <p className="copyright m-3">
               Copyright © 2018 Digital Securities Exchange Limited. All rights
               reserved.
             </p>
           </div>
-          <div className="col-2">
+          <div className="col col-md-2">
             <p className="follow m-3">Follow Us</p>
           </div>
-          <div className="col-4 text-center d-flex">{this.displayMedia()}</div>
+          <div className="col col-md-4 text-center d-flex flex-wrap">
+            {this.displayMedia()}
+          </div>
         </div>
       </div>
     );

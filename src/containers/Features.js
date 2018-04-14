@@ -26,7 +26,7 @@ class Features extends Component {
         </div>
 
         <div className="row">
-          <div className="col col-md-11 feature-desc d-flex align-items-center pl-5">
+          <div className="col col-md-11 feature-desc d-flex align-items-center pl-5 pt-5 offset-md-1">
             <div>
               <span className="light-blue">
                 The most advanced trading platform<br />

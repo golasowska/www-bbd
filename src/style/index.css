@@ -92,15 +92,27 @@ body {
   transform: translateX(-3px);
 }
 
-.logo-big {
+/* .logo-big {
   opacity: 0.2;
+} */
+
+.slogan {
+  color: #5d9ef2;
+  font-size: 500%;
+  opacity: 0.1;
+}
+
+.slogan:hover {
+  opacity: 0.9;
+  font-size: 800%;
+  transition: 2s ease-in-out;
 }
 
 .logo-big:hover {
   -webkit-animation: swing 1s ease;
   animation: swing 1s ease;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 2;
+  animation-iteration-count: 2;
 }
 
 /* ********* HOME FEATURES*********   */
@@ -206,6 +218,17 @@ body {
   background: rgba(0, 70, 142, 0.9);
   transition: 0.5s;
 } */
+
+/* ********* PRODUCTS *********   */
+
+.about-desc {
+  font-size: 1rem;
+}
+
+/* ********* ABOUT *********   */
+
+.photo-about {
+}
 
 /* ********* FOOTER *********   */
 
