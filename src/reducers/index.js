@@ -1,10 +1,12 @@
 import { combineReducers } from "redux";
 import MediaReducer from "./reducer_media";
-import HomeFeatures from "./reducer_home_features";
+import HomeFeaturesReducer from "./reducer_home_features";
+import ProductsReducer from "./reducer_products";
 
 const rootReducer = combineReducers({
   media: MediaReducer,
-  homeFeatures: HomeFeatures
+  homeFeatures: HomeFeaturesReducer,
+  products: ProductsReducer
 });
 
 export default rootReducer;

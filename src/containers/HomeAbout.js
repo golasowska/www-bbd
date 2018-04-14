@@ -9,7 +9,7 @@ export default class HomeAbout extends Component {
           <div className="home-section-header col-md-4 dark-blue d-flex align-items-center">
             <div>Why BBOD</div>
           </div>
-          <div className="home-section-more col-md-7 d-flex align-items-center red-base justify-content-end">
+          <div className="home-section-more-about col-md-7 d-flex align-items-center red-base justify-content-end">
             <Link to="/about">
               <div>Read more ></div>
             </Link>

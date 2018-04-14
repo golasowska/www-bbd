@@ -1,14 +1,19 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { connect } from "react-redux";
 
-export default class HomeProduct extends Component {
+import HomeProduct from "./HomeProduct";
+
+class HomeProducts extends Component {
   displayHomeProducts = () => {
-    console.log("products");
+    return this.props.products.map(product => {
+      return <HomeProduct key={product.name} product={product} />;
+    });
   };
   render() {
     return (
       <div>
-        <div className="row">
+        <div className="row" style={{ background: "rgba(255, 96, 97, 0.5)" }}>
           <div className="home-section-header background-blue-1 col-md-4 white-font d-flex align-items-center">
             <div>Product</div>
           </div>
@@ -17,13 +22,22 @@ export default class HomeProduct extends Component {
               <div>Read more ></div>
             </Link>
           </div>
-          <div
-            className="col-1 footer-pink-fake"
-            style={{ background: "rgba(255, 96, 97, 0.5)" }}
-          />
         </div>
-        <div className="row text-center">{this.displayHomeProducts()}</div>
+        <div
+          className="row text-center"
+          style={{ background: "rgba(255, 96, 97, 0.5)", zIndex: "-50" }}
+        >
+          {this.displayHomeProducts()}
+        </div>
       </div>
     );
   }
 }
+
+function mapStateToProps(state) {
+  return {
+    products: state.products
+  };
+}
+
+export default connect(mapStateToProps)(HomeProducts);

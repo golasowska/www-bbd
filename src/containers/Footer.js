@@ -6,7 +6,7 @@ class Footer extends Component {
   displayMedia = () => {
     return this.props.media.map(logo => {
       return (
-        <div key={logo.name} className="pr-4">
+        <div key={logo.name} className="pr-4 logo-media">
           <a href={logo.href} target={logo.target}>
             <img src={logo.src} width={logo.width} alt={logo.alt} />
           </a>
