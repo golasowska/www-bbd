@@ -20,12 +20,20 @@ export default class HomePartners extends Component {
           <div className="col col-md-4 partners-white" />
           <div className="col col-md-7 partners-logos d-flex flex-wrap justify-content-center align-items-center">
             <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
-              <a href="http://kcik.ug.edu.pl/" target="_blank">
+              <a
+                href="http://kcik.ug.edu.pl/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={kck} height="70" alt="logo_kck" />
               </a>
             </div>
             <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
-              <a href="http://www.quant-technology.com/" target="_blank">
+              <a
+                href="http://www.quant-technology.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={qt} height="70" alt="logo_qt" />
               </a>
             </div>

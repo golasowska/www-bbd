@@ -18,22 +18,38 @@ export default class HomePress extends Component {
           <div className="col col-md-4 partners-white" />
           <div className="col col-md-7 d-flex flex-wrap justify-content-center align-items-center">
             <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
-              <a href="http://kcik.ug.edu.pl/" target="_blank">
+              <a
+                href="http://kcik.ug.edu.pl/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={press1} height="70" alt="logo" />
               </a>
             </div>
             <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
-              <a href="http://www.quant-technology.com/" target="_blank">
+              <a
+                href="http://www.quant-technology.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={press2} height="70" alt="logo_qt" />
               </a>
             </div>
             <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
-              <a href="http://www.quant-technology.com/" target="_blank">
+              <a
+                href="http://www.quant-technology.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={press3} height="70" alt="logo_qt" />
               </a>
             </div>
             <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
-              <a href="http://www.quant-technology.com/" target="_blank">
+              <a
+                href="http://www.quant-technology.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={press4} height="70" alt="logo_qt" />
               </a>
             </div>

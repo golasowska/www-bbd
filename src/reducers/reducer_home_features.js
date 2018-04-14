@@ -24,7 +24,7 @@ export default function() {
       name: "Fast Technology",
       src: `${f3}`,
       description:
-        "BBOD exchange is underpinned by ultra low-latency, high-throughput matching engine. The exchange handles a throughput of up to 1,250,000 messages/sec with a sub-25μs latency. This defines BBOD as the world’s fastest Ether-based trading systems currently in global.",
+        "BBOD exchange is underpinned by ultra low-latency, high-throughput matching engine. The exchange handles a throughput of up to 1,250,000 messages/sec with a sub-25μs latency. This defines BBOD as the world’s fastest Ether-based trading systems currently in global production.",
       alt: "icon_md",
       width: "200"
     }

@@ -196,6 +196,17 @@ body {
   opacity: 1;
 }
 
+/* ********* FEATURES *********   */
+
+.feature-desc {
+  font-size: 2rem;
+}
+
+/* .feature-item:hover {
+  background: rgba(0, 70, 142, 0.9);
+  transition: 0.5s;
+} */
+
 /* ********* FOOTER *********   */
 
 .btn-footer {
