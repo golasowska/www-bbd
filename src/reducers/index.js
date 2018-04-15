@@ -7,6 +7,8 @@ import FeaturesReducer from "./reducer_features";
 import PeopleReducer from "./reducer_people";
 import NewsletterListReducer from "./reducer_newsletterList";
 import MessagesReducer from "./reducer_messages";
+import ContactPeopleReducer from "./reducer_peopleContact";
+import MarkerReducer from "./reducer_marker";
 
 const rootReducer = combineReducers({
   form: formReducer,
@@ -16,7 +18,9 @@ const rootReducer = combineReducers({
   features: FeaturesReducer,
   people: PeopleReducer,
   newsletterList: NewsletterListReducer,
-  messages: MessagesReducer
+  messages: MessagesReducer,
+  contactPeople: ContactPeopleReducer,
+  marker: MarkerReducer
 });
 
 export default rootReducer;
