@@ -346,6 +346,18 @@ label {
   color: #001c33;
 }
 
+/* ********* MAP *********   */
+
+.map {
+  width: 100%;
+  height: 500px;
+}
+
+.contact-item {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+}
+
 /* ********* FOOTER *********   */
 
 .btn-footer {
