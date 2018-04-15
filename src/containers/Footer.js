@@ -49,6 +49,11 @@ class Footer extends Component {
             <div className="text-center">
               <p>BLOCKACHAIN BOARD OF DERIVATIVES</p>
             </div>
+            <div className="text-center mt-5 mb-3">
+              <span className=" migrate migrate-btn text-uppercase">
+                migrate your bbd tokens
+              </span>
+            </div>
           </div>
 
           <div

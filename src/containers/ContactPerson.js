@@ -12,7 +12,7 @@ class ContactPerson extends Component {
   render() {
     const { name, phone, email } = this.props.contactPerson;
     return (
-      <div className="col-md-2 home-feature-item">
+      <div className="col col-md-2 home-feature-item">
         <div className="contact-item pb-5" onClick={this.setMarker}>
           {name}
           <br />

@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import FormNewsletter from "./FormNewsletter";
 
 import logo_white from "../assets/images/bbod_white.svg";
+import logo_bbod from "../assets/images/bbod-big.svg";
 
 export default class Newsletter extends Component {
   render() {
@@ -27,6 +28,13 @@ export default class Newsletter extends Component {
               <span className="dark-blue">newsletter</span>
             </div>
           </div>
+          <div
+            className="col col-md-7 d-flex justify-content-center align-items-center logo-big newsletter-logo"
+            style={{
+              background: `url(${logo_bbod}) no-repeat center`,
+              backgroundSize: "contain"
+            }}
+          />
         </div>
 
         <div className="row">

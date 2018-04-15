@@ -8,7 +8,7 @@ export default class Navigation extends Component {
     return (
       <div className="container-fluid pr-0 pl-0">
         <nav className="navbar navbar-expand-lg navbar-dark navbar-home">
-          <Link to="/" className="navbar-brand">
+          <Link to="/" className="navbar-brand navbar-bbod">
             <img src={logo} width="199.947" height="90.001" alt="bbod" />
           </Link>
           <button

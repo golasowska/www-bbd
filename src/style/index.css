@@ -67,6 +67,15 @@ body {
   background: #1470bf;
 }
 
+.navbar-bbod:hover {
+  opacity: 0.75;
+  transition: 0.25s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
 /* ********* HOME *********   */
 
 .quote {
@@ -302,6 +311,20 @@ body {
   transform: translateX(-3px);
 }
 
+.newsletter-logo {
+  position: absolute;
+  height: 500px;
+  top: 100px;
+  right: 50px;
+  z-index: 50;
+}
+
+@media (max-width: 768px) {
+  .newsletter-logo {
+    right: 0;
+  }
+}
+
 .has-danger .custom-file-control,
 .has-danger .form-control,
 .is-focused .has-danger .custom-file-control,
@@ -351,11 +374,17 @@ label {
 .map {
   width: 100%;
   height: 500px;
+  filter: grayscale(60%);
 }
 
 .contact-item {
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.map-square-blue {
+  height: 150px;
 }
 
 /* ********* FOOTER *********   */
@@ -407,6 +436,10 @@ label {
 .logo-media:hover {
   filter: grayscale(10%);
   opacity: 1;
+}
+
+.migrate-btn {
+  background: #fff;
 }
 
 /* ********* ANIMATIONS *********   */

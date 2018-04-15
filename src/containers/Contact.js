@@ -6,6 +6,7 @@ import FormContact from "./FormContact";
 import GoogleMap from "./GoogleMap";
 
 import logo_white from "../assets/images/bbod_white.svg";
+import logo_bbod from "../assets/images/bbod-big.svg";
 
 export default class Contact extends Component {
   render() {
@@ -38,6 +39,13 @@ export default class Contact extends Component {
           <div className="col-col-md-4 feature-desc d-flex align-items-center pl-5 pt-5 offset-md-1">
             <FormContact history={this.props.history} />
           </div>
+          <div
+            className="col col-md-8 d-flex justify-content-center align-items-center logo-big"
+            style={{
+              background: `url(${logo_bbod}) no-repeat center`,
+              backgroundSize: "contain"
+            }}
+          />
         </div>
 
         <Footer bgColor="#00468e" fontColor="#fff" logo={logo_white} />
