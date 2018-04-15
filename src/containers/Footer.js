@@ -128,16 +128,16 @@ class Footer extends Component {
           </div>
         </div>
         <div className="row footer-media align-items-center">
-          <div className="col col-md-5">
+          <div className="col-md-5">
             <p className="copyright m-3">
               Copyright © 2018 Digital Securities Exchange Limited. All rights
               reserved.
             </p>
           </div>
-          <div className="col col-md-2">
+          <div className="col-md-2">
             <p className="follow m-3">Follow Us</p>
           </div>
-          <div className="col col-md-4 text-center d-flex flex-wrap">
+          <div className="col-md-4 text-center d-flex flex-wrap justify-content-center">
             {this.displayMedia()}
           </div>
         </div>

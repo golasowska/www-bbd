@@ -230,6 +230,122 @@ body {
 .photo-about {
 }
 
+/* ********* ABOUT PERSON *********   */
+
+.about-person-icon {
+  padding-top: 3rem;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.about-person-icon:hover {
+  padding-top: 0;
+  background: #1470bf;
+  transform: scale(1.3);
+  transition: all 0.3s ease;
+}
+
+.about-person-description {
+  font-size: 0.75rem;
+  color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 400px;
+  height: 400px;
+
+  opacity: 0;
+}
+
+.about-person-description:hover {
+  background: #1470bf;
+  opacity: 0.85;
+  /* overflow: scroll; */
+}
+
+.about-person-position {
+  font-size: 1rem;
+}
+
+.about-person-name {
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+/* ********* NEWSLETTER FORM *********   */
+
+.text-help {
+  color: #ff1235;
+  font-size: 1rem;
+}
+
+.btn-newsletter {
+  background: #fff;
+  font-size: 1rem;
+  color: #1470bf;
+  border: 1px solid #1470bf;
+  border-radius: 2px;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-newsletter:hover {
+  background: #1470bf;
+  transition: 0.5s;
+  color: #fff;
+  box-shadow: 1px 1px #5d9ef2, 2px 2px #5d9ef2, 3px 3px #5d9ef2;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+
+.has-danger .custom-file-control,
+.has-danger .form-control,
+.is-focused .has-danger .custom-file-control,
+.is-focused .has-danger .form-control {
+  background-image: -webkit-linear-gradient(
+      bottom,
+      #1470bf 2px,
+      rgba(244, 67, 54, 0) 0
+    ),
+    -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.26) 1px, transparent 0);
+  background-image: -o-linear-gradient(
+      bottom,
+      #ff123 2px,
+      rgba(244, 67, 54, 0) 0
+    ),
+    -o-linear-gradient(bottom, rgba(0, 0, 0, 0.26) 1px, transparent 0);
+  background-image: linear-gradient(0deg, #1470bf 2px, rgba(244, 67, 54, 0) 0),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.26) 1px, transparent 0);
+}
+
+.custom-file-control,
+.form-control,
+.is-focused .custom-file-control,
+.is-focused .form-control {
+  background-image: -webkit-linear-gradient(
+      bottom,
+      #1470bf 2px,
+      rgba(0, 150, 136, 0) 0
+    ),
+    -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.26) 1px, transparent 0);
+  background-image: -o-linear-gradient(
+      bottom,
+      #1470bf 2px,
+      rgba(0, 150, 136, 0) 0
+    ),
+    -o-linear-gradient(bottom, rgba(0, 0, 0, 0.26) 1px, transparent 0);
+  background-image: linear-gradient(0deg, #1470bf 2px, rgba(0, 150, 136, 0) 0),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.26) 1px, transparent 0);
+}
+
+label {
+  color: #001c33;
+}
+
 /* ********* FOOTER *********   */
 
 .btn-footer {
