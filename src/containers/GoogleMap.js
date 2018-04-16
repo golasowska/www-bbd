@@ -10,7 +10,7 @@ class GoogleMap extends Component {
     return this.props.contactPeople.map(contactPerson => {
       return (
         <ContactPerson
-          key={contactPerson.phone}
+          key={contactPerson.country}
           contactPerson={contactPerson}
           initMap={this.initMap}
         />
@@ -20,7 +20,7 @@ class GoogleMap extends Component {
 
   initMap = () => {
     const map = new google.maps.Map(this.refs.map, {
-      zoom: 10,
+      zoom: 5,
       center: {
         lat: Number(this.props.marker.lat),
         lng: Number(this.props.marker.lng)
@@ -31,6 +31,7 @@ class GoogleMap extends Component {
         lat: Number(this.props.marker.lat),
         lng: Number(this.props.marker.lng)
       },
+      // icon: "http://maps.google.com/mapfiles/kml/pal5/icon11.png",
       map: map
     });
   };

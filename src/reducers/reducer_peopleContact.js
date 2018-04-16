@@ -1,32 +1,28 @@
 export default function() {
   return [
     {
-      name: "Piotr",
-      phone: "123 45 67",
-      email: "piotr@gmail.com",
-      lng: "0.121817",
-      lat: "52.205337"
+      name: "BBOD",
+      country: "United Kingdom",
+      lng: "-3.43597299999999",
+      lat: "55.378051"
     },
     {
-      name: "John",
-      phone: "123 123 123",
-      email: "piotr@gmail.com",
-      lng: "77.209021",
-      lat: "28.613939"
+      name: "BBOD",
+      country: "India",
+      lng: "78.96288000000004",
+      lat: "20.593684"
     },
     {
-      name: "Rafaela",
-      phone: "666 555 444",
-      email: "piotr@gmail.com",
-      lng: "-43.172896",
-      lat: "-22.906847"
+      name: "BBOD",
+      country: "Poland",
+      lng: "19.14513599999998",
+      lat: "51.919438"
     },
     {
-      name: "Krzysztof",
-      phone: "999 888 777",
-      email: "piotr@gmail.com",
-      lng: "18.560096",
-      lat: "54.441581"
+      name: "BBOD",
+      country: "Spain",
+      lng: "-3.7492200000000366",
+      lat: "40.46366700000001"
     }
   ];
 }

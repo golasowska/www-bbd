@@ -23,14 +23,15 @@ export default class HomeBanner extends Component {
             </div>
           </div>
           <div
-            className="col col-md-7 d-flex justify-content-center align-items-center logo-big text-lowercase"
+            className="col col-md-7 d-flex justify-content-center align-items-center logo-big"
             style={{
               background: `url(${logo_bbod}) no-repeat center`,
               backgroundSize: "contain"
             }}
           >
             <div className="slogan text-center">
-              Trade<br /> the<br /> future
+              Trade<br />the
+              <br /> Future
             </div>
           </div>
         </div>

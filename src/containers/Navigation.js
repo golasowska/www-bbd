@@ -26,6 +26,11 @@ export default class Navigation extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
+                <Link to="/" className="nav-link">
+                  Welcome<span className="sr-only">(current)</span>
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link to="/features" className="nav-link">
                   Features<span className="sr-only">(current)</span>
                 </Link>

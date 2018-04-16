@@ -9,9 +9,24 @@ import HomeProducts from "./HomeProducts";
 import HomePartners from "./HomePartners";
 import HomePress from "./HomePress";
 
+// import swal from "sweetalert";
+
 import logo_blue from "../assets/images/bbod_no_tagline.svg";
 
 export default class Home extends Component {
+  // componentDidMount = () => {
+  //   setTimeout(
+  //     () =>
+  //       swal({
+  //         text: "Join for real-time bitcoin news and price updates.",
+  //         className: "",
+  //         icon: logo_blue,
+  //         buttons: [true, "Do it!"]
+  //       }),
+  //     500
+  //   );
+  // };
+
   render() {
     return (
       <div>
