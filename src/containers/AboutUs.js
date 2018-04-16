@@ -15,10 +15,6 @@ class AboutUs extends Component {
     });
   };
 
-  showNewsletterList = () => {
-    console.log("newsletterlist ->", this.props.newsletter);
-    console.log("messages", this.props.messages);
-  };
   render() {
     return (
       <div>
@@ -32,7 +28,7 @@ class AboutUs extends Component {
 
         <div className="row pb-5">
           <div className="col-md-5 about-desc  pl-5 pt-5 offset-md-1">
-            <div className="dark-blue" onClick={this.showNewsletterList}>
+            <div className="dark-blue">
               The Blockchain Board of Derivatives (BBOD) is a cryptocurrency
               derivatives exchange with marketing and research offices in
               Cambridge, UK. BBOD’s cryptocurrency derivatives exchange has been

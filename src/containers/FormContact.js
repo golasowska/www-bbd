@@ -6,13 +6,19 @@ import { addToMessages } from "../actions";
 import swal from "sweetalert";
 
 class FormContact extends Component {
+  showDisable = () => {
+    swal("The subscription will start soon!", {
+      buttons: false,
+      timer: 1500
+    });
+  };
   renderField(field) {
     const { meta: { touched, error } } = field;
     const className = `form group ${touched && error ? "has-danger" : ""}`;
     return (
       <div className={className}>
         <label>{field.label}</label>
-        <input type="text" className="form-control" {...field.input} />
+        <input type="text" className="form-control" {...field.input} disabled />
         <div className="text-help">{touched ? error : ""}</div>
       </div>
     );
@@ -24,14 +30,19 @@ class FormContact extends Component {
     return (
       <div className={className}>
         <label>{field.label}</label>
-        <textarea type="text" className="form-control" {...field.input} />
+        <textarea
+          type="text"
+          className="form-control"
+          {...field.input}
+          disabled
+        />
         <div className="text-help">{touched ? error : ""}</div>
       </div>
     );
   }
 
   onSubmit = values => {
-    swal("Thanks for contact!", {
+    swal("The subscription will start soon!", {
       buttons: false,
       timer: 1500
     });
@@ -53,7 +64,11 @@ class FormContact extends Component {
           name="message"
           component={this.renderTextArea}
         />
-        <button type="submit" className="btn-newsletter text-uppercase">
+        <button
+          type="submit"
+          className="btn-newsletter text-uppercase disabled"
+          onClick={this.showDisable}
+        >
           Contact us
         </button>
       </form>

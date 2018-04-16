@@ -6,20 +6,26 @@ import { addToNewsletterList } from "../actions";
 import swal from "sweetalert";
 
 class FormNewsletter extends Component {
+  showDisable = () => {
+    swal("The newsletter will start soon!", {
+      buttons: false,
+      timer: 1500
+    });
+  };
   renderField(field) {
     const { meta: { touched, error } } = field;
     const className = `form group ${touched && error ? "has-danger" : ""}`;
     return (
       <div className={className}>
         <label>{field.label}</label>
-        <input type="text" className="form-control" {...field.input} />
+        <input type="text" className="form-control" {...field.input} disabled />
         <div className="text-help">{touched ? error : ""}</div>
       </div>
     );
   }
 
   onSubmit = values => {
-    swal("Thanks for Subscribing!", {
+    swal("The newsletter will start soon!", {
       buttons: false,
       timer: 1500
     });
@@ -38,7 +44,11 @@ class FormNewsletter extends Component {
       <form onSubmit={handleSubmit(this.onSubmit)}>
         <Field label="Your e-mail" name="email" component={this.renderField} />
 
-        <button type="submit" className="btn-newsletter text-uppercase">
+        <button
+          type="submit"
+          className="btn-newsletter text-uppercase"
+          onClick={this.showDisable}
+        >
           Contact us
         </button>
       </form>
