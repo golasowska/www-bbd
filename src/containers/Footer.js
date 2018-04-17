@@ -50,9 +50,11 @@ class Footer extends Component {
               <p>BLOCKACHAIN BOARD OF DERIVATIVES</p>
             </div>
             <div className="text-center mt-5 mb-3">
-              <span className=" migrate migrate-btn text-uppercase">
-                migrate your bbd tokens
-              </span>
+              <Link to="/migrate-tokens">
+                <span className=" migrate migrate-btn text-uppercase">
+                  migrate your bbd tokens
+                </span>
+              </Link>
             </div>
           </div>
 
@@ -134,10 +136,7 @@ class Footer extends Component {
         </div>
         <div className="row footer-media align-items-center">
           <div className="col-md-5">
-            <p className="copyright m-3">
-              Copyright © 2018 Digital Securities Exchange Limited. All rights
-              reserved.
-            </p>
+            <p className="copyright m-3" />
           </div>
           <div className="col-md-2">
             <p className="follow m-3">Follow Us</p>

@@ -17,7 +17,7 @@ export default class HomeBanner extends Component {
                 Exchange
               </span>
               <br />
-              <span className="mt-5 migrate text-uppercase">
+              <span className="mt-5 migrate migrate-btn text-uppercase">
                 migrate your bbd tokens
               </span>
             </div>

@@ -94,7 +94,7 @@ body {
   padding-bottom: 90px;
 }
 
-.migrate {
+.migrate.migrate-btn {
   font-size: 1rem;
   color: #ff1235;
   border: 1px solid #ff1235;
@@ -102,7 +102,7 @@ body {
   padding: 0.5rem;
 }
 
-.migrate:hover {
+.migrate.migrate-btn:hover {
   background: #ff1235;
   transition: 0.5s;
   color: #fff;
