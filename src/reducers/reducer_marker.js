@@ -3,9 +3,9 @@ import { SHOW_MARKER } from "../actions";
 export default function(
   state = {
     name: "BBOD",
-    country: "United Kingdom",
-    lng: "-3.43597299999999",
-    lat: "55.378051"
+    country: "South Korea",
+    lng: "127.76692200000002",
+    lat: "35.907757"
   },
   action
 ) {

@@ -35,14 +35,12 @@ export default class HomeProduct extends Component {
       colClass
     } = this.props.product;
     return (
-      <div className={colClass}>
-        <div
-          className="feature-name"
-          onMouseEnter={this.showDescription}
-          onMouseLeave={this.hideDescription}
-        >
-          {name}
-        </div>
+      <div
+        className={colClass}
+        onMouseEnter={this.showDescription}
+        onMouseLeave={this.hideDescription}
+      >
+        <div className="feature-name">{name}</div>
         <div className="pt-3 pb-4">
           <img src={srcW} width={width} height={width} alt={alt} />
         </div>

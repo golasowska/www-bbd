@@ -24,7 +24,7 @@ export default function() {
       src: `${p2}`,
       srcW: `${p2w}`,
       description:
-        "The world’s only, speculative Ether-Dollar Perpetual and Futures contract with up to 50x leverage.",
+        "The world’s only Ether-Dollar Perpetual and Futures contract with up to 50x leverage.",
       alt: "icon",
       width: "150",
       colClass: "col col-md-5 home-product-item"
@@ -43,8 +43,7 @@ export default function() {
       name: ">  Bitcoin-Ether Futures Contract",
       src: `${p4}`,
       srcW: `${p4w}`,
-      description:
-        "A speculative Bitcoin against Ether futures contract with up to 25x leverage.",
+      description: "A Bitcoin-Ether futures contract with up to 25x leverage.",
       alt: "icon",
       width: "150",
       colClass: "col col-md-5 home-product-item"

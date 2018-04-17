@@ -100,6 +100,7 @@ body {
   border: 1px solid #ff1235;
   border-radius: 2px;
   padding: 0.5rem;
+  text-decoration: none;
 }
 
 .migrate.migrate-btn:hover {
@@ -109,6 +110,11 @@ body {
   box-shadow: 1px 1px #5d9ef2, 2px 2px #5d9ef2, 3px 3px #5d9ef2;
   -webkit-transform: translateX(-3px);
   transform: translateX(-3px);
+  text-decoration: none;
+}
+
+.quote a {
+  text-decoration: none;
 }
 
 /* .logo-big {
@@ -211,6 +217,11 @@ body {
 
 .home-section-more-about a:hover {
   opacity: 0.65;
+}
+
+.why-bbod {
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 /* ********* HOME PRODUCTS*********   */
@@ -414,6 +425,24 @@ label {
   height: 150px;
 }
 
+/* ********* MIGRATE TOKENS *********   */
+
+.migrate-link {
+  text-decoration: none;
+  color: #5d9ef2;
+}
+
+.migrate-link:hover {
+  text-decoration: none;
+  color: #ff1235;
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
+}
+
+.abi-json {
+  font-size: 0.6rem;
+}
+
 /* ********* FOOTER *********   */
 
 .btn-footer {
@@ -449,10 +478,6 @@ label {
 .footer-media {
   color: #00468e;
   background: rgba(93, 158, 242, 0.2);
-}
-
-.copyright {
-  font-size: 0.6rem;
 }
 
 .logo-media {

@@ -51,7 +51,6 @@ class GoogleMap extends Component {
         <div className="row">
           <div className="col col-md-1 fake-hight" />
           {this.displayPeopleContact()}
-          <div className="col col-md-2 fake-hight" />
         </div>
       </div>
     );

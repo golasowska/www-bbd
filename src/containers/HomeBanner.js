@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import logo_bbod from "../assets/images/bbod-big.svg";
 
@@ -14,12 +15,14 @@ export default class HomeBanner extends Component {
               </span>
               <span className="dark-blue">
                 Ether-based<br /> Futures<br />
-                Exchange
+                Trading<br /> Platform
               </span>
               <br />
-              <span className="mt-5 migrate migrate-btn text-uppercase">
-                migrate your bbd tokens
-              </span>
+              <Link to="/migrate-tokens">
+                <span className="mt-5 migrate migrate-btn text-uppercase">
+                  migrate your bbd tokens
+                </span>
+              </Link>
             </div>
           </div>
           <div

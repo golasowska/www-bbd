@@ -27,18 +27,18 @@ class AboutUs extends Component {
         </div>
 
         <div className="row pb-5">
-          <div className="col-md-5 about-desc  pl-5 pt-5 offset-md-1">
-            <div className="dark-blue">
-              The Blockchain Board of Derivatives (BBOD) is a cryptocurrency
-              derivatives exchange with marketing and research offices in
-              Cambridge, UK. BBOD’s cryptocurrency derivatives exchange has been
-              created in partnership with GMEX. BBOD has made it its mission to
-              demistify the world of derivatives for the benefit of everyone who
-              uses cryptocurrencies.
+          <div className="col col-md-5 quote-about d-flex justify-content-center align-items-center">
+            <div>
+              <span className="light-blue">
+                We are all in this<br />together,<br />
+              </span>
+              <span className="dark-blue">
+                everybody does<br /> their part.
+              </span>
             </div>
           </div>
           <div
-            className="col-md-6"
+            className="col-md-7"
             style={{
               background: `url(${about_photo}) no-repeat center`,
               backgroundSize: "cover",

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import kck from "../assets/images/partners/kck_logo.png";
-import qt from "../assets/images/partners/quant_technology_logo.png";
+import gmex from "../assets/images/partners/gmex_logo.png";
 import mtp from "../assets/images/partners/MTP_logo.svg";
 
 export default class HomePartners extends Component {
@@ -22,20 +22,11 @@ export default class HomePartners extends Component {
           <div className="col col-md-7 partners-logos d-flex flex-wrap justify-content-center align-items-center">
             <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
               <a
-                href="http://kcik.ug.edu.pl/"
+                href="http://www.gmex-group.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={kck} height="70" alt="logo_kck" />
-              </a>
-            </div>
-            <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
-              <a
-                href="http://www.quant-technology.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={qt} height="70" alt="logo_qt" />
+                <img src={gmex} height="45" alt="logo_gmex" />
               </a>
             </div>
             <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
@@ -44,7 +35,16 @@ export default class HomePartners extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={mtp} height="70" alt="logo_mtp" />
+                <img src={mtp} height="65" alt="logo_mtp" />
+              </a>
+            </div>
+            <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
+              <a
+                href="http://kcik.ug.edu.pl/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={kck} height="45" alt="logo_kck" />
               </a>
             </div>
           </div>

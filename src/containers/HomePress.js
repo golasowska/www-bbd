@@ -17,13 +17,13 @@ export default class HomePress extends Component {
           <div className="col col-md-4 partners-white" />
           <div className="col col-md-7 d-flex flex-wrap justify-content-center align-items-center">
             <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
-              <img src={press1} height="60" alt="logo" />
+              <img src={press1} height="30" alt="logo" />
             </div>
             <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
-              <img src={press2} height="60" alt="logo_qt" />
+              <img src={press2} height="40" alt="logo_qt" />
             </div>
             <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
-              <img src={press3} height="60" alt="logo_qt" />
+              <img src={press3} height="40" alt="logo_qt" />
             </div>
           </div>
         </div>

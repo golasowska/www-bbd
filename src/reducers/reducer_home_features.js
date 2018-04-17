@@ -8,7 +8,7 @@ export default function() {
       name: "Crypto Assets",
       src: `${f1}`,
       description:
-        "The world’s first derivatives exchange to speculate directly on Ether-Dollar contract with up to 50x leverage. Trading basket of cryptos is now possible in a single trade through our world’s only BBOD.10 Index Future.",
+        "The world’s first derivatives trading platform to speculate directly on Ether-Dollar contract with up to 50x leverage. Trading basket of cryptos is now possible in a single trade through our world’s only BBOD.10 Index Future.",
       alt: "icon_md",
       width: "200"
     },
@@ -24,7 +24,7 @@ export default function() {
       name: "Fast Technology",
       src: `${f3}`,
       description:
-        "BBOD exchange is underpinned by ultra low-latency, high-throughput matching engine. The exchange handles a throughput of up to 1,250,000 messages/sec with a sub-25μs latency. This defines BBOD as the world’s fastest Ether-based trading systems currently in global production.",
+        "BBOD trading platform is underpinned by ultra low-latency, high-throughput matching engine. The trading platform handles a throughput of up to 1,250,000 messages/sec with a sub-25μs latency. This defines BBOD as the world’s fastest Ether-based trading systems currently in global production.",
       alt: "icon_md",
       width: "200"
     }
