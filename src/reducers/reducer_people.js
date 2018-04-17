@@ -14,19 +14,17 @@ export default function() {
     {
       name: "Junghee Ryu",
       src: `${peop1}`,
-      position: "Chief of Strategy and Innovation",
-      description:
-        "Junghee Ryu with his input all of our team grind out the best from our abilities. And he is fun to hang out with, too.",
+      position: "Junghee Ryu",
+      description: "Junghee Ryu",
       alt: "junghee",
       width: "400"
     },
     {
       name: "Mukesh",
       src: `${peop2}`,
-      position: "Chief of Strategy and Innovation",
-      description:
-        "Mukesh with his input all of our team grind out the best from our abilities. And he is fun to hang out with, too.",
-      alt: "miroslaw",
+      position: "Mukesh",
+      description: "Mukesh",
+      alt: "mukesh",
       width: "400"
     },
     {
