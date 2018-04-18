@@ -17,7 +17,7 @@ export default function() {
         "Not sure which crypto to hold? Trade the whole basket of crypto assets in a single trade through our world’s only cryptocurrency Index Future on the largest crypto assets.",
       alt: "icon",
       width: "150",
-      colClass: "col col-md-6 home-product-item"
+      colClass: "col-md-6 home-product-item"
     },
     {
       name: ">  Ether-Dollar Contract",
@@ -27,17 +27,17 @@ export default function() {
         "The world’s only Ether-Dollar Perpetual and Futures contract with up to 50x leverage.",
       alt: "icon",
       width: "150",
-      colClass: "col col-md-5 home-product-item"
+      colClass: "col-md-5 home-product-item"
     },
     {
-      name: ">  Altcoin futures Contract",
+      name: ">  Altcoin Futures Contract",
       src: `${p3}`,
       srcW: `${p3w}`,
       description:
         "Ripple, Litecoin and Neo against Ether futures contracts, trading with up to 20x leverage.",
       alt: "icon",
       width: "150",
-      colClass: "col col-md-6 home-product-item"
+      colClass: "col-md-6 home-product-item"
     },
     {
       name: ">  Bitcoin-Ether Futures Contract",
@@ -46,7 +46,7 @@ export default function() {
       description: "A Bitcoin-Ether futures contract with up to 25x leverage.",
       alt: "icon",
       width: "150",
-      colClass: "col col-md-5 home-product-item"
+      colClass: "col-md-5 home-product-item"
     }
   ];
 }

@@ -5,7 +5,7 @@ import Navigation from "./Navigation";
 import Footer from "./Footer";
 import AboutPerson from "./AboutPerson";
 
-import logo_white from "../assets/images/bbod_white.svg";
+import logo_white from "../assets/images/bbod_basic_white.svg";
 import about_photo from "../assets/images/about/about_photo.jpg";
 
 class AboutUs extends Component {

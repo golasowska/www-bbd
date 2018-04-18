@@ -13,12 +13,12 @@ class HomeFeatures extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="features-home">
         <div className="row">
-          <div className="home-section-header background-blue-2 col-md-4 white-font d-flex align-items-center">
+          <div className="home-section-header background-blue-2 col col-md-4 white-font d-flex align-items-center">
             <div>Features</div>
           </div>
-          <div className="home-section-more background-blue-2 col-md-7 d-flex align-items-center red-base justify-content-end">
+          <div className="home-section-more background-blue-2 col col-md-7 d-flex align-items-center red-base justify-content-end">
             <Link to="/features">
               <div>Read more ></div>
             </Link>

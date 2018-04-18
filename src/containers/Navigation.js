@@ -6,8 +6,8 @@ import logo from "../assets/images/bbod_white.svg";
 export default class Navigation extends Component {
   render() {
     return (
-      <div className="container-fluid pr-0 pl-0">
-        <nav className="navbar navbar-expand-lg navbar-dark navbar-home">
+      <div className=" pr-0 pl-0">
+        <nav className="navbar navbar-expand-lg navbar-dark navbar-home ml-0 mr-0">
           <Link to="/" className="navbar-brand navbar-bbod">
             <img src={logo} width="199.947" height="90.001" alt="bbod" />
           </Link>

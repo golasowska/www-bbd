@@ -10,19 +10,19 @@ export default class HomePress extends Component {
       <div>
         <div className="row">
           <div className="home-section-header col-md-4 dark-blue d-flex align-items-center">
-            <div className="light-blue">In the press</div>
+            <div className="dark-blue">In the press</div>
           </div>
         </div>
         <div className="row">
           <div className="col col-md-4 partners-white" />
-          <div className="col col-md-7 d-flex flex-wrap justify-content-center align-items-center">
-            <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
+          <div className="col col-md-7 d-flex flex-wrap justify-content-around align-items-center">
+            <div className="partner-logo">
               <img src={press1} height="30" alt="logo" />
             </div>
-            <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
+            <div className="partner-logo">
               <img src={press2} height="40" alt="logo_qt" />
             </div>
-            <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
+            <div className="partner-logo">
               <img src={press3} height="40" alt="logo_qt" />
             </div>
           </div>

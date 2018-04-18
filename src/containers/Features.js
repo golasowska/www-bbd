@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 import Feature from "./Feature";
 
-import logo_white from "../assets/images/bbod_white.svg";
+import logo_white from "../assets/images/bbod_basic_white.svg";
 
 class Features extends Component {
   displayFeatures = () => {

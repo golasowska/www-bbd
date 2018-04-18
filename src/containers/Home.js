@@ -11,7 +11,7 @@ import HomePress from "./HomePress";
 
 // import swal from "sweetalert";
 
-import logo_blue from "../assets/images/bbod_no_tagline.svg";
+import logo_blue from "../assets/images/bbod_basic.svg";
 
 export default class Home extends Component {
   // componentDidMount = () => {
@@ -31,12 +31,14 @@ export default class Home extends Component {
     return (
       <div>
         <Navigation />
-        <HomeBanner />
-        <HomeFeatures />
-        <HomeAbout />
-        <HomeProducts />
-        <HomePartners />
-        <HomePress />
+        <div className="container">
+          <HomeBanner />
+          <HomeFeatures />
+          <HomeAbout />
+          <HomeProducts />
+          <HomePartners />
+          <HomePress />
+        </div>
         <Footer bgColor="null" fontColor="null" logo={logo_blue} />
       </div>
     );

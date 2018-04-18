@@ -6,10 +6,10 @@ export default class HomeAbout extends Component {
     return (
       <div>
         <div className="row">
-          <div className="home-section-header col-md-4 dark-blue d-flex align-items-center">
+          <div className="home-section-header col col-md-4 dark-blue d-flex align-items-center">
             <div>Why BBOD</div>
           </div>
-          <div className="home-section-more-about col-md-7 d-flex align-items-center red-base justify-content-end">
+          <div className="home-section-more-about col col-md-7 d-flex align-items-center red-base justify-content-end">
             <Link to="/about">
               <div>Read more ></div>
             </Link>
@@ -17,7 +17,7 @@ export default class HomeAbout extends Component {
         </div>
         <div className="row">
           <div className="col col-md-4 quote-about d-flex justify-content-center align-items-center">
-            <div className="m-auto why-bbod">
+            <div className="m-auto">
               <span className="light-blue">
                 Because BBOD{"'"}s Trading Platform handles <br />
               </span>

@@ -6,7 +6,7 @@ class Footer extends Component {
   displayMedia = () => {
     return this.props.media.map(logo => {
       return (
-        <div key={logo.name} className="pr-4 logo-media">
+        <div key={logo.name} className="pr-3 logo-media">
           <a href={logo.href} target={logo.target}>
             <img src={logo.src} width={logo.width} alt={logo.alt} />
           </a>
@@ -32,7 +32,7 @@ class Footer extends Component {
           }}
         >
           <div
-            className="col-md-5"
+            className="col-md-4"
             style={{
               background: this.props.bgColor,
               color: this.props.fontColor
@@ -46,10 +46,7 @@ class Footer extends Component {
                 alt="bbod"
               />
             </div>
-            <div className="text-center">
-              <p>BLOCKACHAIN BOARD OF DERIVATIVES</p>
-            </div>
-            <div className="text-center mt-5 mb-3">
+            <div className="text-center mt-4 mb-4">
               <Link to="/migrate-tokens">
                 <span className=" migrate migrate-btn text-uppercase">
                   migrate your bbd tokens
@@ -59,19 +56,19 @@ class Footer extends Component {
           </div>
 
           <div
-            className="col-md-3"
+            className="col col-md-4"
             style={{
               background: this.props.bgColor,
               color: this.props.fontColor
             }}
           >
-            <div className="text-left footer-text-header pt-4">
+            <div className="footer-text-header pt-4 pl-4">
               <p>Resources</p>
             </div>
-            <div className="text-left">
+            <div className="pl-4">
               <p>Quick Guide</p>
             </div>
-            <div className="text-left">
+            <div className="pl-4">
               <Link
                 to="/products"
                 style={{
@@ -81,16 +78,16 @@ class Footer extends Component {
                 <p>Products</p>
               </Link>
             </div>
-            <div className="text-left">
+            <div className="pl-4">
               <p>API Documentations</p>
             </div>
-            <div className="text-left">
+            <div className="pl-4">
               <p>Technical Reference</p>
             </div>
           </div>
 
           <div
-            className="col-md-3"
+            className="col col-md-4"
             style={{
               background: this.props.bgColor,
               color: this.props.fontColor
@@ -134,14 +131,11 @@ class Footer extends Component {
             </div>
           </div>
         </div>
-        <div className="row footer-media align-items-center">
+        <div className="row footer-media">
           <div className="col-md-5">
-            <p className="copyright m-3" />
-          </div>
-          <div className="col-md-2">
             <p className="follow m-3">Follow Us</p>
           </div>
-          <div className="col-md-4 text-center d-flex flex-wrap justify-content-center">
+          <div className="col-md-6 m-3 text-center d-flex flex-wrap justify-content-center">
             {this.displayMedia()}
           </div>
         </div>

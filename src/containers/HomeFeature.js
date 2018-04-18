@@ -31,7 +31,7 @@ export default class HomeFeature extends Component {
         </div>
         <div className="feature-name pb-5">{name}</div>
         <div
-          className="feature-description pb-3 pr-1 pl-1"
+          className="feature-description pb-3"
           style={{ display: this.state.display, transition: "0.5s" }}
         >
           {description}

@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 import Product from "./Product";
 
-import logo_white from "../assets/images/bbod_white.svg";
+import logo_white from "../assets/images/bbod_basic_white.svg";
 
 class Products extends Component {
   displayProducts = () => {

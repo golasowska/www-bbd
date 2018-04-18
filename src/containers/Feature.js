@@ -38,7 +38,7 @@ export default class Feature extends Component {
           <img src={srcLb} width={width} alt={alt} />
         </div>
         <div className="feature-name pb-5">{name}</div>
-        <div className="feature-description pb-3 pr-1 pl-1">{description}</div>
+        <div className="feature-description pb-3">{description}</div>
       </div>
     );
   }

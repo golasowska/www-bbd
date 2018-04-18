@@ -13,11 +13,11 @@ class HomeProducts extends Component {
   render() {
     return (
       <div>
-        <div className="row" style={{ background: "rgba(255, 96, 97, 0.5)" }}>
-          <div className="home-section-header background-blue-1 col-md-4 white-font d-flex align-items-center">
-            <div>Product</div>
+        <div className="row" style={{ background: "rgba(255, 96, 97, 0.9)" }}>
+          <div className="home-section-header background-blue-1 col col-md-4 white-font d-flex align-items-center">
+            <div>Products</div>
           </div>
-          <div className="home-section-more read-more-white background-blue-1 col-md-7 d-flex align-items-center white-font justify-content-end">
+          <div className="home-section-more read-more-white background-blue-1 col col-md-7 d-flex align-items-center white-font justify-content-end">
             <Link to="/products">
               <div>Read more ></div>
             </Link>
@@ -25,7 +25,7 @@ class HomeProducts extends Component {
         </div>
         <div
           className="row text-center"
-          style={{ background: "rgba(255, 96, 97, 0.5)", zIndex: "-50" }}
+          style={{ background: "rgba(255, 96, 97, 0.9)", zIndex: "-50" }}
         >
           {this.displayHomeProducts()}
         </div>

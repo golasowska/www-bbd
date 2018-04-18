@@ -14,13 +14,13 @@ export default class HomePartners extends Component {
           </div>
           <div
             className="col-md-8 partners-pink"
-            style={{ background: "rgba(255, 96, 97, 0.5)" }}
+            style={{ background: "rgba(255, 96, 97, 0.9)" }}
           />
         </div>
         <div className="row">
           <div className="col col-md-4 partners-white" />
-          <div className="col col-md-7 partners-logos d-flex flex-wrap justify-content-center align-items-center">
-            <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
+          <div className="col col-md-7 partners-logos d-flex flex-wrap justify-content-around align-items-center">
+            <div className="partner-logo">
               <a
                 href="http://www.gmex-group.com/"
                 target="_blank"
@@ -29,7 +29,7 @@ export default class HomePartners extends Component {
                 <img src={gmex} height="45" alt="logo_gmex" />
               </a>
             </div>
-            <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
+            <div className="partner-logo">
               <a
                 href="http://mobiletradingpartners.com/"
                 target="_blank"
@@ -38,7 +38,7 @@ export default class HomePartners extends Component {
                 <img src={mtp} height="65" alt="logo_mtp" />
               </a>
             </div>
-            <div className="pt-2 pb-5 pr-3 pl-3 partner-logo">
+            <div className="partner-logo">
               <a
                 href="http://kcik.ug.edu.pl/"
                 target="_blank"
@@ -50,7 +50,7 @@ export default class HomePartners extends Component {
           </div>
           <div
             className="col-md-1 partners-pink"
-            style={{ background: "rgba(255, 96, 97, 0.5)" }}
+            style={{ background: "rgba(255, 96, 97, 0.9)" }}
           />
         </div>
       </div>

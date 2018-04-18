@@ -14,16 +14,18 @@ export default function() {
     {
       name: "Junghee Ryu",
       src: `${peop1}`,
-      position: "Junghee Ryu",
-      description: "Junghee Ryu",
+      position: "BBOD Enthusiast in South Korea",
+      description:
+        "Junghee is passionate about application of elliptic curves post-quantum cryptography into blockchain technologies. In his spare time, he travel and spend time with family. Junghee holds Ph.D degree in Quantum Information Science.",
       alt: "junghee",
       width: "400"
     },
     {
-      name: "Mukesh",
+      name: "Mukesh Jha",
       src: `${peop2}`,
-      position: "Mukesh",
-      description: "Mukesh",
+      position: "Community Manager in India",
+      description:
+        "Mukesh is a blockchain technology and cryptocurrency evangelist. Early adopter of the distributed ledger tech, published many articles and public speaker. The rest time, he spends with his family play games with friends.",
       alt: "mukesh",
       width: "400"
     },

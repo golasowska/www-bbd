@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 import Footer from "./Footer";
 import FormNewsletter from "./FormNewsletter";
 
-import logo_white from "../assets/images/bbod_white.svg";
+import logo_white from "../assets/images/bbod_basic_white.svg";
 import logo_bbod from "../assets/images/bbod-big.svg";
 
 export default class Newsletter extends Component {
