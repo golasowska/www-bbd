@@ -25,7 +25,7 @@ body {
   background: #00468e;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .fake-hight {
     display: none;
   }
@@ -230,6 +230,10 @@ body {
   color: #fff;
 }
 
+.row-products-home {
+  background: rgba(255, 96, 97, 0.9);
+}
+
 /* ********* HOME PARTNERS*********   */
 
 .partners-logos {
@@ -253,10 +257,10 @@ body {
   font-size: 2rem;
 }
 
-/* .feature-item:hover {
-  background: rgba(0, 70, 142, 0.9);
-  transition: 0.5s;
-} */
+.feature-item {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 
 /* ********* PRODUCTS *********   */
 
@@ -664,6 +668,8 @@ label {
   }
   .feature-name {
     font-size: 1.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .feature-description {
     padding-left: 2rem;
@@ -694,14 +700,39 @@ label {
 /* ********* HOME PRODUCTS *********   */
 
 @media (max-width: 576px) {
+  .products-home {
+    background: #1470bf;
+  }
+  .row-products-home {
+    background: #1470bf;
+  }
   .partners-white {
     display: none;
+  }
+}
+
+/* ********* FEATURES *********   */
+
+@media (max-width: 576px) {
+  .feature-desc {
+    padding-top: 60px;
+    padding-bottom: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+  }
+  .feature-item {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 /* ********* FOOTER *********   */
 
 @media (max-width: 576px) {
+  .btn-row {
+    background: #5d9ef2;
+  }
   .btn-footer {
     font-size: 1.75rem;
     padding-top: 20px;

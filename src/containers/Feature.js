@@ -24,7 +24,7 @@ export default class Feature extends Component {
     const { name, description, src, srcLb, alt, width } = this.props.feature;
     return (
       <div
-        className="col-md-4 pl-5 pr-5 dark-blue feature-item"
+        className="col-md-6 col-lg-4 dark-blue feature-item"
         onMouseEnter={this.iconLight}
         onMouseLeave={this.iconDark}
       >

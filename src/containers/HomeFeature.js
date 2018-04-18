@@ -22,7 +22,7 @@ export default class HomeFeature extends Component {
     const { name, description, src, alt, width } = this.props.homeFeature;
     return (
       <div
-        className="col-md-3 home-feature-item"
+        className="col-12 col-lg-3 home-feature-item"
         onMouseEnter={this.showDescription}
         onMouseLeave={this.hideDescription}
       >

@@ -17,7 +17,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="">
-        <div className="row">
+        <div className="row btn-row">
           <Link to="/newsletter" className="col-md-4 btn-footer text-center">
             Newsletter >
           </Link>

@@ -15,10 +15,10 @@ class HomeFeatures extends Component {
     return (
       <div className="features-home">
         <div className="row">
-          <div className="home-section-header background-blue-2 col col-md-4 white-font d-flex align-items-center">
+          <div className="home-section-header background-blue-2 col col-lg-4 white-font d-flex align-items-center">
             <div>Features</div>
           </div>
-          <div className="home-section-more background-blue-2 col col-md-7 d-flex align-items-center red-base justify-content-end">
+          <div className="home-section-more background-blue-2 col col-lg-7 d-flex align-items-center red-base justify-content-end">
             <Link to="/features">
               <div>Read more ></div>
             </Link>
@@ -26,9 +26,9 @@ class HomeFeatures extends Component {
         </div>
 
         <div className="row text-center">
-          <div className="col-md-1 fake-hight" />
+          <div className="col-lg-1 fake-hight" />
           {this.displayHomeFeatures()}
-          <div className="col-md-1 fake-hight" />
+          <div className="col-lg-1 fake-hight" />
         </div>
       </div>
     );

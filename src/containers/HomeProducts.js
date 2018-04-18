@@ -12,8 +12,8 @@ class HomeProducts extends Component {
   };
   render() {
     return (
-      <div>
-        <div className="row" style={{ background: "rgba(255, 96, 97, 0.9)" }}>
+      <div className="products-home">
+        <div className="row row-products-home">
           <div className="home-section-header background-blue-1 col col-md-4 white-font d-flex align-items-center">
             <div>Products</div>
           </div>
@@ -24,8 +24,8 @@ class HomeProducts extends Component {
           </div>
         </div>
         <div
-          className="row text-center"
-          style={{ background: "rgba(255, 96, 97, 0.9)", zIndex: "-50" }}
+          className="row text-center row-products-home"
+          style={{ zIndex: "-50" }}
         >
           {this.displayHomeProducts()}
         </div>
