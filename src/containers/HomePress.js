@@ -9,7 +9,7 @@ export default class HomePress extends Component {
     return (
       <div>
         <div className="row">
-          <div className="home-section-header col-md-4 dark-blue d-flex align-items-center">
+          <div className="home-section-header col dark-blue d-flex align-items-center">
             <div className="dark-blue">In the press</div>
           </div>
         </div>

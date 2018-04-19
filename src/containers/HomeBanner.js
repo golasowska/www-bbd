@@ -8,7 +8,7 @@ export default class HomeBanner extends Component {
     return (
       <div>
         <div className="row">
-          <div className="col col-md-4 quote d-flex justify-content-center align-items-center">
+          <div className="col-md-5 quote d-flex justify-content-center align-items-center">
             <div>
               <span className="light-blue">
                 The world’s<br /> fastest<br />
@@ -26,7 +26,7 @@ export default class HomeBanner extends Component {
             </div>
           </div>
           <div
-            className="col col-md-7 d-flex justify-content-center align-items-center logo-big"
+            className="col-md-6 d-flex justify-content-center align-items-center logo-big"
             style={{
               background: `url(${logo_bbod}) no-repeat center`,
               backgroundSize: "contain"

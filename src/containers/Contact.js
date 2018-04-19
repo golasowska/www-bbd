@@ -40,7 +40,7 @@ export default class Contact extends Component {
             <FormContact history={this.props.history} />
           </div>
           <div
-            className="col col-sm-7 logo-big logo-big-contact"
+            className="col col-sm-6 logo-big logo-big-contact"
             style={{
               background: `url(${logo_bbod}) no-repeat center`,
               backgroundSize: "contain"

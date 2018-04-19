@@ -20,7 +20,7 @@ export default class Newsletter extends Component {
         </div>
 
         <div className="row">
-          <div className="col col-md-4 feature-desc d-flex align-items-center pl-5 pt-5 offset-md-1">
+          <div className="col col-md-4 feature-desc d-flex align-items-center pt-5 offset-md-1">
             <div>
               <span className="light-blue">
                 Subscribe to our<br />
@@ -38,7 +38,7 @@ export default class Newsletter extends Component {
         </div>
 
         <div className="row">
-          <div className="col-col-md-4 feature-desc d-flex align-items-center pl-5 pt-5 offset-md-1">
+          <div className="col-col-md-4 feature-desc d-flex align-items-center pl-3 pt-5 offset-md-1">
             <FormNewsletter history={this.props.history} />
           </div>
         </div>

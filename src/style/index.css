@@ -46,7 +46,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .partners-pink {
     display: none;
   }
@@ -198,9 +198,11 @@ body {
 /* ********* HOME ABOUT*********   */
 
 .quote-about {
-  font-size: 2rem;
+  font-size: 1.75rem;
   padding-top: 90px;
   padding-bottom: 90px;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .quote-about-desc {
@@ -235,7 +237,7 @@ body {
   color: #fff;
 }
 
-.row-products-home {
+.products-home {
   background: rgba(255, 96, 97, 0.9);
 }
 
@@ -478,9 +480,9 @@ label {
 .btn-footer {
   background: #5d9ef2;
   color: #fff;
-  font-size: 2.125rem;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-decoration: none;
 }
 
@@ -675,6 +677,12 @@ label {
 
 /* ********* HOME *********   */
 
+@media (max-width: 991px) {
+  .quote {
+    font-size: 2.5rem;
+  }
+}
+
 @media (max-width: 576px) {
   .quote {
     font-size: 2.5rem;
@@ -718,6 +726,12 @@ label {
 }
 
 /* ********* HOME ABOUT*********   */
+@media (max-width: 1199px) {
+  .quote-about {
+    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+}
 
 @media (max-width: 576px) {
   .home-section-more-about a {
@@ -726,9 +740,7 @@ label {
   .quote-about {
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .quote-about-desc {
     padding: 3rem;
@@ -801,12 +813,18 @@ label {
 
 /* ********* FOOTER *********   */
 
+@media (max-width: 991px) {
+  .btn-footer {
+    font-size: 1.75rem;
+  }
+}
+
 @media (max-width: 576px) {
   .btn-row {
     background: #5d9ef2;
   }
   .btn-footer {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -826,15 +844,44 @@ label {
 
 /* ********* GENERAL *********   */
 
+@media (min-width: 576px) {
+  .container {
+    max-width: 767px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 991px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1199px;
+  }
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1400px;
     padding-left: 0;
     margin-left: 0;
+    padding-right: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 576px) {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1199px) {
   .container {
     padding-right: 0;
     padding-left: 0;
@@ -853,4 +900,6 @@ label {
 
 body {
   overflow-x: hidden;
+  white-space: normal;
+  word-wrap: break-word;
 }

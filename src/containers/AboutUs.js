@@ -27,7 +27,7 @@ class AboutUs extends Component {
         </div>
 
         <div className="row pb-5">
-          <div className="col col-md-5 quote-about d-flex justify-content-center align-items-center">
+          <div className="col col-md-5 feature-desc d-flex justify-content-center align-items-center">
             <div>
               <span className="light-blue">
                 We are all in this<br />together,<br />

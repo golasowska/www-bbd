@@ -24,7 +24,7 @@ export default class MigrateTokens extends Component {
         <Navigation />
 
         <div className="row">
-          <div className="home-section-header col-md-4 dark-blue d-flex align-items-center">
+          <div className="home-section-header col-md-11 dark-blue d-flex align-items-center">
             <div>Migrate your BBD tokens</div>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default class MigrateTokens extends Component {
         </div>
 
         <div className="row pb-5">
-          <div className="col-md-10 about-desc pl-5 pt-3 offset-md-1">
+          <div className="col col-md-10 about-desc pl-5 pt-3 offset-md-1">
             <div className="dark-blue pb-2">
               Make sure you do this using the{" "}
               <a
