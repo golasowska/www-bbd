@@ -43,13 +43,13 @@ class GoogleMap extends Component {
     return (
       <div>
         <div className="row  d-flex align-items-end">
-          <div className="col col-md-10 pr-0">
+          <div className="col col-md-10 pr-0 pl-0">
             <div className="map" ref="map" id="map" />
           </div>
-          <div className="col col-md-1 fake-hight map-square-blue" />
+          <div className="col col-md-1 fake-hight-map map-square-blue" />
         </div>
-        <div className="row">
-          <div className="col col-md-1 fake-hight" />
+        <div className="row row-map-marker">
+          <div className="col col-md-1 fake-hight-map" />
           {this.displayPeopleContact()}
         </div>
       </div>

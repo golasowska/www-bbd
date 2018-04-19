@@ -14,7 +14,7 @@ export default function() {
     },
     {
       name: "BBOD",
-      country: "United Kingdom",
+      country: "UK",
       lng: "-3.43597299999999",
       lat: "55.378051"
     },

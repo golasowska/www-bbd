@@ -89,7 +89,7 @@ export default class MigrateTokens extends Component {
               into the <b> ABI / JSON interface </b> :
             </div>
             <div className="mt-5">
-              <ReactJson src={data_json} />{" "}
+              <ReactJson src={data_json} theme="monokai" />{" "}
             </div>
 
             <div className="m-3">

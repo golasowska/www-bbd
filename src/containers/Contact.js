@@ -36,11 +36,11 @@ export default class Contact extends Component {
         </div>
 
         <div className="row">
-          <div className="col-col-md-4 feature-desc d-flex align-items-center pl-5 pt-5 offset-md-1">
+          <div className="col col-sm-4 d-flex align-items-center pt-5 offset-md-1">
             <FormContact history={this.props.history} />
           </div>
           <div
-            className="col col-md-8 d-flex justify-content-center align-items-center logo-big"
+            className="col col-sm-7 logo-big logo-big-contact"
             style={{
               background: `url(${logo_bbod}) no-repeat center`,
               backgroundSize: "contain"

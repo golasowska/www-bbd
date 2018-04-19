@@ -19,9 +19,9 @@ export default class HomeBanner extends Component {
               </span>
               <br />
               <Link to="/migrate-tokens">
-                <span className="mt-5 migrate migrate-btn text-uppercase">
+                <button className="mt-5 migrate migrate-btn text-uppercase">
                   migrate your bbd tokens
-                </span>
+                </button>
               </Link>
             </div>
           </div>

@@ -28,29 +28,32 @@ class Footer extends Component {
         <div
           className="row footer-text"
           style={{
-            color: this.props.fontColor
+            color: this.props.fontColor,
+            background: this.props.bgColor
           }}
         >
           <div
-            className="col-md-4"
+            className="col-md-3"
             style={{
               background: this.props.bgColor,
               color: this.props.fontColor
             }}
           >
-            <div className="text-center">
-              <img
-                src={this.props.logo}
-                width="199.947"
-                height="90.001"
-                alt="bbod"
-              />
+            <div className="text-center logo-footer">
+              <Link to="/">
+                <img
+                  src={this.props.logo}
+                  width="199.947"
+                  height="90.001"
+                  alt="bbod"
+                />
+              </Link>
             </div>
             <div className="text-center mt-4 mb-4">
               <Link to="/migrate-tokens">
-                <span className=" migrate migrate-btn text-uppercase">
+                <button className=" migrate migrate-btn text-uppercase">
                   migrate your bbd tokens
-                </span>
+                </button>
               </Link>
             </div>
           </div>
@@ -130,12 +133,18 @@ class Footer extends Component {
               </Link>
             </div>
           </div>
+          <div
+            className="col-md-1 partners-white"
+            style={{
+              background: this.props.fontColor
+            }}
+          />
         </div>
         <div className="row footer-media">
           <div className="col-md-5">
             <p className="follow m-3">Follow Us</p>
           </div>
-          <div className="col-md-6 m-3 text-center d-flex flex-wrap justify-content-center">
+          <div className="col-md-6 m-3 text-center d-flex flex-wrap justify-content-around">
             {this.displayMedia()}
           </div>
         </div>

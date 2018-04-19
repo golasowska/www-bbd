@@ -16,9 +16,8 @@ export default function() {
       src: `${peop1}`,
       position: "BBOD Enthusiast in South Korea",
       description:
-        "Junghee is passionate about application of elliptic curves post-quantum cryptography into blockchain technologies. In his spare time, he travel and spend time with family. Junghee holds Ph.D degree in Quantum Information Science.",
-      alt: "junghee",
-      width: "400"
+        "Junghee is passionate about application of elliptic curves post-quantum cryptography into blockchain technologies. In his spare time, he travels and spends time with family. Junghee holds Ph.D degree in Quantum Information Science.",
+      alt: "junghee"
     },
     {
       name: "Mukesh Jha",
@@ -26,8 +25,7 @@ export default function() {
       position: "Community Manager in India",
       description:
         "Mukesh is a blockchain technology and cryptocurrency evangelist. Early adopter of the distributed ledger tech, published many articles and public speaker. The rest time, he spends with his family play games with friends.",
-      alt: "mukesh",
-      width: "400"
+      alt: "mukesh"
     },
     {
       name: "Miroslaw",
@@ -35,8 +33,7 @@ export default function() {
       position: "Chief of Strategy and Innovation",
       description:
         "Miroslaw with his input all of our team grind out the best from our abilities. And he is fun to hang out with, too.",
-      alt: "miroslaw",
-      width: "400"
+      alt: "miroslaw"
     },
     {
       name: "Peter",
@@ -44,8 +41,7 @@ export default function() {
       position: "Chief Economist",
       description:
         "Peter holds Ph.D in Economics / Physics and has extensive experience in creating and managing commodities and FX portfolios. He is an experienced futures and options trader and an avid jogger.",
-      alt: "piotr",
-      width: "400"
+      alt: "piotr"
     },
     {
       name: "Chris",
@@ -53,8 +49,7 @@ export default function() {
       position: "Chief Technology Officer",
       description:
         "Chris holds Ph.D in Economics / Physics. BBOD’s CTO, who uses his in-depth experience of programming algorithms for trading futures and options  in the commodities and FX markets to ignite the derivatives market for Ethereum. Oh, and he plays a monster guitar.",
-      alt: "krzysztof",
-      width: "400"
+      alt: "krzysztof"
     },
     {
       name: "Hubert",
@@ -62,8 +57,7 @@ export default function() {
       position: "Director of Business Development and Communications",
       description:
         "Hubert oversees all of BBOD’s international marketing and PR communications. He speaks five languages and for some reason he recommends everyone uses a trampoline to work out.",
-      alt: "hubert",
-      width: "400"
+      alt: "hubert"
     },
     {
       name: "Anna",
@@ -71,8 +65,7 @@ export default function() {
       position: "Frontend Developer",
       description:
         "Anna designs, codes, and modifies our websites from design to function.",
-      alt: "anna",
-      width: "400"
+      alt: "anna"
     },
     {
       name: "Albert",
@@ -80,8 +73,7 @@ export default function() {
       position: "Head of Software Development",
       description:
         "Albert is Ph.D student in Computer Science. He is implementing our software architecture with his magic touch.",
-      alt: "albert",
-      width: "400"
+      alt: "albert"
     },
     {
       name: "Soledad",
@@ -89,8 +81,7 @@ export default function() {
       position: "Community Coordinator",
       description:
         "Soledad coordinates BBOD’s social media campaigns  accross all platforms in Europe, South East Asia, Africa and South America. When she is not devoting her focus to BBOD she relaxes by painting landscapes, oil on canvas, of course.",
-      alt: "soledad",
-      width: "400"
+      alt: "soledad"
     },
     {
       name: "Arthur",
@@ -98,8 +89,7 @@ export default function() {
       position: " IT Specialist",
       description:
         "Arthur develops and maintains BBOD’s IT network, servers and security systems. To customers seeking assistance Arthur is their first, charismatic and knowledgable, contact person.",
-      alt: "arthur",
-      width: "400"
+      alt: "arthur"
     }
   ];
 }

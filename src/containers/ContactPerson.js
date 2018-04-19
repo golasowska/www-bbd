@@ -13,7 +13,7 @@ class ContactPerson extends Component {
     const { name, country } = this.props.contactPerson;
     return (
       <div className="col col-md-2 home-feature-item">
-        <div className="contact-item pb-5" onClick={this.setMarker}>
+        <div className="contact-item" onClick={this.setMarker}>
           {name}
           <br />
           {country}
