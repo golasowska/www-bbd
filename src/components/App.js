@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, Router } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import { history } from "../store/configureStore";
 
 import Features from "../containers/Features";
@@ -13,7 +13,7 @@ import MigrateTokens from "./MigrateTokens";
 class App extends Component {
   render() {
     return (
-      <Router history={history}>
+      <HashRouter>
         <div>
           <Switch>
             <Route exact path="/" component={Home} />
@@ -43,7 +43,7 @@ class App extends Component {
             />
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
