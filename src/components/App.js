@@ -6,6 +6,7 @@ import Features from "../containers/Features";
 import Products from "../containers/Products";
 import Home from "../containers/Home";
 import AboutUs from "../containers/AboutUs";
+import News from "../containers/News";
 import Contact from "../containers/Contact";
 import Newsletter from "../containers/Newsletter";
 import MigrateTokens from "./MigrateTokens";
@@ -37,6 +38,7 @@ class App extends Component {
               path={`${process.env.PUBLIC_URL}/newsletter`}
               component={Newsletter}
             />
+            <Route path={`${process.env.PUBLIC_URL}/news`} component={News} />
             <Route
               path={`${process.env.PUBLIC_URL}/migrate-tokens`}
               component={MigrateTokens}

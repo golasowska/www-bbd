@@ -120,7 +120,14 @@ class Footer extends Component {
               </Link>
             </div>
             <div className="text-left">
-              <p>News</p>
+              <Link
+                to="/news"
+                style={{
+                  color: this.props.fontColor
+                }}
+              >
+                <p>News</p>
+              </Link>
             </div>
             <div className="text-left">
               <Link

@@ -379,6 +379,34 @@ body {
   padding-top: 1.5rem;
 }
 
+/* ********* NEWS *********   */
+
+.news-photo {
+  height: 400px;
+}
+
+.news-photo:hover {
+  opacity: 0.8;
+}
+
+.news-title {
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  height: 3rem;
+  overflow: hidden;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.news-title a {
+  text-decoration: none;
+}
+
+.news-title a:hover {
+  color: #5d9ef2;
+}
+
 /* ********* NEWSLETTER FORM *********   */
 
 .text-help {
@@ -823,6 +851,25 @@ label {
     font-size: 0.75rem;
     width: 300px;
     height: 300px;
+  }
+}
+
+/* ********* NEWS *********   */
+@media (max-width: 991px) {
+  .news-title {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .news-photo {
+    height: 300px;
+  }
+  .news-title {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 

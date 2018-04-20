@@ -46,6 +46,11 @@ export default class Navigation extends Component {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link to="/news" className="nav-link">
+                  News<span className="sr-only">(current)</span>
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link to="/contact" className="nav-link">
                   Contact<span className="sr-only">(current)</span>
                 </Link>
