@@ -6,7 +6,6 @@ import Footer from "./Footer";
 import NewsItem from "./NewsItem";
 
 import logo_white from "../assets/images/bbod_basic_white.svg";
-import logo_bbod from "../assets/images/bbod-big.svg";
 
 class News extends Component {
   displayNewsItem = () => {
@@ -38,7 +37,7 @@ class News extends Component {
           {this.displayNewsItem()}
         </div>
 
-        <Footer bgColor="#00468e" fontColor="#fff" logo={logo_white} />
+        <Footer bgColor="#446c72" fontColor="#fff" logo={logo_white} />
       </div>
     );
   }

@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import logo_bbod from "../assets/images/bbod-big.svg";
+import logo_bbod from "../assets/images/bbod-big-white.svg";
 
 export default class HomeBanner extends Component {
   render() {
     return (
-      <div>
+      <div className="home-banner">
         <div className="row">
-          <div className="col-md-5 quote d-flex justify-content-center align-items-center">
+          <div className="col-md-5 quote text-uppercase d-flex justify-content-center align-items-center">
             <div>
-              <span className="light-blue">
+              <span className="white-font roboto enter-anim-first">
                 The world’s<br /> fastest<br />
               </span>
-              <span className="dark-blue">
+              <span className="dark-blue roboto enter-anim-second">
                 Ether-based<br /> Futures<br />
                 Trading<br /> Platform
               </span>
