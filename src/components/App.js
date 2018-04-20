@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch, Router } from "react-router-dom";
+import { history } from "../store/configureStore";
 
 import Features from "../containers/Features";
 import Products from "../containers/Products";
@@ -12,19 +13,19 @@ import MigrateTokens from "./MigrateTokens";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <Router history={history}>
         <div>
           <Switch>
+            <Route exact path="/" component={Home} />
             <Route path="/features" component={Features} />
             <Route path="/products" component={Products} />
             <Route path="/about" component={AboutUs} />
             <Route path="/contact" component={Contact} />
             <Route path="/newsletter" component={Newsletter} />
             <Route path="/migrate-tokens" component={MigrateTokens} />
-            <Route path="/" component={Home} />
           </Switch>
         </div>
-      </BrowserRouter>
+      </Router>
     );
   }
 }

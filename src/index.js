@@ -4,17 +4,15 @@ import "./style/bootstrap-material-design.min.css";
 import "./style/index.css";
 
 import { Provider } from "react-redux";
-import { createStore, applyMiddleware } from "redux";
-import promise from "redux-promise";
-import reducers from "./reducers";
+import { configureStore } from "./store/configureStore";
 
 import App from "./components/App";
 import registerServiceWorker from "./registerServiceWorker";
 
-const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
+const store = configureStore();
 
 ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
+  <Provider store={store}>
     <App />
   </Provider>,
   document.getElementById("root")
