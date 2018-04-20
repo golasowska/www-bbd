@@ -17,12 +17,30 @@ class App extends Component {
         <div>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/features" component={Features} />
-            <Route path="/products" component={Products} />
-            <Route path="/about" component={AboutUs} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/newsletter" component={Newsletter} />
-            <Route path="/migrate-tokens" component={MigrateTokens} />
+            <Route
+              path={`${process.env.PUBLIC_URL}/features`}
+              component={Features}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/products`}
+              component={Products}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/about`}
+              component={AboutUs}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/contact`}
+              component={Contact}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/newsletter`}
+              component={Newsletter}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/migrate-tokens`}
+              component={MigrateTokens}
+            />
           </Switch>
         </div>
       </Router>
