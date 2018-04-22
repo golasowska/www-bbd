@@ -1,11 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .roboto {
-  font-family: "Roboto", monospace;
+  font-family: 'Roboto', monospace;
+}
+
+.judson {
+  font-family: 'Judson', serif;
 }
 
 .very-light-blue {
@@ -13,7 +17,7 @@ body {
 }
 
 .light-blue {
-  color: #a1cbde;
+  color: #90caf9;
 }
 
 .dark-blue {
@@ -30,12 +34,14 @@ body {
 
 .fake-hight {
   min-height: 10px;
-  background: #446c72;
+  /* background: #1c313a; */
+  /* background: #03a9f4; */
+  background: #d4e157;
 }
 
 .fake-hight-map {
   min-height: 10px;
-  background: #446c72;
+  background: #1c313a;
 }
 
 @media (max-width: 991px) {
@@ -61,13 +67,13 @@ body {
 }
 
 .swal-modal {
-  background: #719aac;
+  background: #90caf9;
 }
 
 .swal-text {
   margin: 0 auto;
   text-align: center;
-  color: #fff;
+  color: #001c33;
 }
 
 /* ********* NAVBAR *********   */
@@ -81,16 +87,18 @@ body {
 }
 
 .navbar-home {
-  /* background: #719aac; */
-  background: #a1cbde;
+  /* background: #90caf9; */
+  background: #90caf9;
 }
 
 .background-blue-2 {
-  background: #446c72;
+  /* background: #1c313a; */
+  /* background: #03a9f4; */
+  background: #d4e157;
 }
 
 .background-blue-1 {
-  background: #719aac;
+  background: #1c313a;
 }
 
 .navbar-bbod:hover {
@@ -99,13 +107,13 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: #001c33;
 }
 
 /* ********* HOME *********   */
 
 .home-banner {
-  background: #a1cbde;
+  background: #90caf9;
   margin-bottom: 5rem;
 }
 
@@ -113,6 +121,7 @@ body {
   font-size: 3rem;
   padding-top: 45px;
   padding-bottom: 45px;
+  z-index: 100;
 }
 
 .migrate.migrate-btn {
@@ -128,10 +137,11 @@ body {
   background: #ff1235;
   transition: 0.5s;
   color: #fff;
-  box-shadow: 1px 1px #a1cbde, 2px 2px #a1cbde, 3px 3px #a1cbde;
+  box-shadow: 1px 1px #d4e157, 2px 2px #d4e157, 3px 3px #d4e157;
   -webkit-transform: translateX(-3px);
   transform: translateX(-3px);
   text-decoration: none;
+  opacity: 1;
 }
 
 .quote a {
@@ -149,32 +159,49 @@ body {
   -webkit-animation-iteration-count: 2;
   animation-iteration-count: 2; */
   animation: beat 2.5s infinite;
+  position: absolute;
+  height: 500px;
+  top: 150px;
   z-index: 50;
 }
 
+.logo-big-0 {
+  animation: beat 3s infinite;
+  position: absolute;
+  height: 500px;
+  top: 150px;
+  z-index: 50;
+}
+
+.logo-big-1 {
+  position: absolute;
+  height: 600px;
+  top: 100px;
+  left: 0px;
+  z-index: 50;
+  animation: rotating-logo 10s infinite;
+}
+
+/* .logo-big-1:hover {
+  animation: rotating-logo 5s infinite;
+} */
+
 .slogan {
-  font-size: 500%;
-  opacity: 0.01;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: -moz-linear-gradient(45deg, #001c33 0%, #ff1235 100%);
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0%, #001c33),
-    color-stop(100%, #ff1235)
-  );
-  background-image: -webkit-linear-gradient(45deg, #001c33 0%, #ff1235 100%);
-  background-image: -o-linear-gradient(45deg, #001c33 0%, #ff1235 100%);
-  background-image: -ms-linear-gradient(45deg, #001c33 0%, #ff1235 100%);
-  background-image: linear-gradient(45deg, #001c33 0%, #ff1235 100%);
+  transform: rotate(-90deg);
+  font-size: 300%;
+  opacity: 0.2;
+  color: 4f83cc;
+  position: absolute;
+  right: -45%;
+  top: 40%;
+  word-wrap: normal;
+  overflow: hidden;
+  z-index: 150;
 }
 
 .slogan:hover {
-  opacity: 0.8;
-  font-size: 780%;
-  transition: 2s ease-in-out;
+  opacity: 0.4;
+  transition: 0.5s ease-in-out;
 }
 
 .enter-anim-first {
@@ -207,6 +234,18 @@ body {
     opacity: 1;
     left: 0px;
     top: 0px;
+  }
+}
+
+@keyframes rotating-logo {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 
@@ -286,8 +325,10 @@ body {
 }
 
 .home-feature-item {
-  background: #446c72;
-  color: #fff;
+  /* background: #1c313a; */
+  /* background: #03a9f4; */
+  /* background: #d4e157; */
+  background: #d4e157;
 }
 
 .feature-icon {
@@ -304,7 +345,7 @@ body {
 }
 
 .home-feature-item:hover {
-  background: rgba(68, 107, 113, 0.9);
+  background: #fafafa;
   transition: 0.5s;
 }
 
@@ -320,7 +361,7 @@ body {
 
 .quote-about-desc {
   font-size: 1rem;
-  background: rgba(255, 96, 97, 0.9);
+  background: #90caf9;
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -346,18 +387,18 @@ body {
 }
 
 .home-product-item {
-  background: #719aac;
+  background: #1c313a;
   color: #fff;
 }
 
 .products-home {
-  background: rgba(255, 96, 97, 0.9);
+  background: #90caf9;
 }
 
 /* ********* HOME PARTNERS*********   */
 
 .partners-logos {
-  background: rgba(255, 96, 97, 0.9);
+  background: #90caf9;
 }
 
 .partner-logo {
@@ -400,7 +441,7 @@ body {
 }
 
 .about-person-square:hover .about-person-description {
-  background: #719aac;
+  background: #90caf9;
   opacity: 0.75;
   transition: all 0.3s ease;
   transform: scale(1.1);
@@ -484,12 +525,12 @@ body {
 }
 
 .news-title a:hover {
-  color: #a1cbde;
+  color: #90caf9;
 }
 
 /* ********* NEWSLETTER FORM *********   */
 
-/* #446c72 */
+/* #1c313a */
 
 .text-help {
   color: #ff1235;
@@ -499,8 +540,8 @@ body {
 .btn-newsletter {
   background: #fff;
   font-size: 1rem;
-  color: #719aac;
-  border: 1px solid #719aac;
+  color: #90caf9;
+  border: 1px solid #90caf9;
   border-radius: 2px;
   padding: 0.5rem;
   text-align: center;
@@ -511,20 +552,21 @@ body {
 }
 
 .btn-newsletter:hover {
-  background: #719aac;
+  background: #90caf9;
   transition: 0.5s;
   color: #fff;
-  box-shadow: 1px 1px #a1cbde, 2px 2px #a1cbde, 3px 3px #a1cbde;
+  box-shadow: 1px 1px #90caf9, 2px 2px #90caf9, 3px 3px #90caf9;
   -webkit-transform: translateX(-3px);
   transform: translateX(-3px);
 }
 
 .newsletter-logo {
+  animation: beat 2.5s infinite;
   position: absolute;
   height: 500px;
   top: 100px;
   right: 50px;
-  z-index: -50;
+  z-index: -5;
 }
 
 @media (max-width: 768px) {
@@ -539,7 +581,7 @@ body {
 .is-focused .has-danger .form-control {
   background-image: -webkit-linear-gradient(
       bottom,
-      #719aac 2px,
+      #90caf9 2px,
       rgba(244, 67, 54, 0) 0
     ),
     -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.26) 1px, transparent 0);
@@ -549,7 +591,7 @@ body {
       rgba(244, 67, 54, 0) 0
     ),
     -o-linear-gradient(bottom, rgba(0, 0, 0, 0.26) 1px, transparent 0);
-  background-image: linear-gradient(0deg, #719aac 2px, rgba(244, 67, 54, 0) 0),
+  background-image: linear-gradient(0deg, #90caf9 2px, rgba(244, 67, 54, 0) 0),
     linear-gradient(0deg, rgba(0, 0, 0, 0.26) 1px, transparent 0);
 }
 
@@ -559,17 +601,17 @@ body {
 .is-focused .form-control {
   background-image: -webkit-linear-gradient(
       bottom,
-      #719aac 2px,
+      #90caf9 2px,
       rgba(0, 150, 136, 0) 0
     ),
     -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.26) 1px, transparent 0);
   background-image: -o-linear-gradient(
       bottom,
-      #719aac 2px,
+      #90caf9 2px,
       rgba(0, 150, 136, 0) 0
     ),
     -o-linear-gradient(bottom, rgba(0, 0, 0, 0.26) 1px, transparent 0);
-  background-image: linear-gradient(0deg, #719aac 2px, rgba(0, 150, 136, 0) 0),
+  background-image: linear-gradient(0deg, #90caf9 2px, rgba(0, 150, 136, 0) 0),
     linear-gradient(0deg, rgba(0, 0, 0, 0.26) 1px, transparent 0);
 }
 
@@ -604,7 +646,7 @@ label {
 
 .migrate-link {
   text-decoration: none;
-  color: #a1cbde;
+  color: #90caf9;
 }
 
 .migrate-link:hover {
@@ -621,7 +663,7 @@ label {
 /* ********* FOOTER *********   */
 
 .btn-footer {
-  background: #a1cbde;
+  background: #90caf9;
   color: #fff;
   font-size: 2rem;
   padding-top: 2rem;
@@ -630,7 +672,7 @@ label {
 }
 
 .btn-footer:hover {
-  color: #446c72;
+  color: #1c313a;
   background: #fff;
   transition: 0.5s;
   text-decoration: none;
@@ -642,7 +684,7 @@ label {
 }
 
 .footer-text a :hover {
-  background: rgba(93, 158, 242, 0.3);
+  opacity: 0.5;
   transition: 0.25s;
 }
 
@@ -651,14 +693,13 @@ label {
 }
 
 .logo-footer a :hover {
-  opacity: 0.8;
-  background: #fff;
+  opacity: 0.5;
   transition: 0.25s;
 }
 
 .footer-media {
-  color: #446c72;
-  background: rgba(93, 158, 242, 0.2);
+  color: #1c313a;
+  background: #bbdefb;
 }
 
 .logo-media {
@@ -698,28 +739,6 @@ label {
   }
 }
 
-@keyframes resizing {
-  0% {
-    transform: scale(1);
-  }
-  25% {
-    transform: scale(1.15);
-    opacity: 0.35;
-  }
-  50% {
-    transform: scale(1.2);
-    opacity: 0.2;
-  }
-  75% {
-    transform: scale(1.25);
-    opacity: 0.1;
-  }
-  100% {
-    transform: scale(1.3);
-    opacity: 0;
-  }
-}
-
 @keyframes beat-xs {
   0% {
     transform: scale(0.75);
@@ -738,28 +757,6 @@ label {
   }
   100% {
     transform: scale(0.75);
-  }
-}
-
-@keyframes resizing-xs {
-  0% {
-    transform: scale(0.8);
-  }
-  25% {
-    transform: scale(0.85);
-    opacity: 0.35;
-  }
-  50% {
-    transform: scale(0.9);
-    opacity: 0.2;
-  }
-  75% {
-    transform: scale(0.95);
-    opacity: 0.1;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0;
   }
 }
 
@@ -836,10 +833,17 @@ label {
   .logo-big {
     margin-bottom: 60px;
     animation: beat-xs 2.5s infinite;
+    z-index: 0;
+  }
+  .logo-big-0 {
+    z-index: 0;
+  }
+  .logo-big-1 {
+    z-index: 0;
   }
   .slogan {
-    opacity: 0.5;
-    animation: resizing-xs 2.5s infinite;
+    /* animation: resizing-xs 2.5s infinite; */
+    font-size: 200%;
   }
 }
 
@@ -847,7 +851,7 @@ label {
 
 @media (max-width: 576px) {
   .features-home {
-    background: #446c72;
+    /* background: #1c313a; */
   }
   .home-section-header {
     font-size: 1.75rem;
@@ -895,10 +899,10 @@ label {
 
 @media (max-width: 576px) {
   .products-home {
-    background: #719aac;
+    background: #90caf9;
   }
   .row-products-home {
-    background: #719aac;
+    background: #90caf9;
   }
   .partners-white {
     display: none;
@@ -935,6 +939,8 @@ label {
   }
 }
 
+/* ********* NEWSLETTER *********   */
+
 /* ********* NEWS *********   */
 @media (max-width: 991px) {
   .news-title {
@@ -961,7 +967,7 @@ label {
     display: none;
   }
   .row-map-marker {
-    background: #446c72;
+    background: #1c313a;
   }
 }
 
@@ -982,7 +988,7 @@ label {
 
 @media (max-width: 576px) {
   .btn-row {
-    background: #a1cbde;
+    background: #90caf9;
   }
   .btn-footer {
     font-size: 1.5rem;
@@ -1025,7 +1031,7 @@ label {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1400px;
+    max-width: 1800px;
     padding-left: 0;
     margin-left: 0;
     padding-right: 0;

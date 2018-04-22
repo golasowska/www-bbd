@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-import logo from "../assets/images/bbod_white.svg";
+import logo from '../assets/images/bbod_white.svg';
 
 export default class Navigation extends Component {
   render() {

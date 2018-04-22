@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import kck from "../assets/images/partners/kck_logo.png";
-import gmex from "../assets/images/partners/gmex_logo.png";
-import mtp from "../assets/images/partners/MTP_logo.svg";
+import kck from '../assets/images/partners/kck_logo.png';
+import gmex from '../assets/images/partners/gmex_logo.png';
+import mtp from '../assets/images/partners/MTP_logo.svg';
 
 export default class HomePartners extends Component {
   render() {
@@ -14,7 +14,7 @@ export default class HomePartners extends Component {
           </div>
           <div
             className="col-md-8 partners-pink"
-            style={{ background: "rgba(255, 96, 97, 0.9)" }}
+            style={{ background: '#90caf9' }}
           />
         </div>
         <div className="row">
@@ -50,7 +50,7 @@ export default class HomePartners extends Component {
           </div>
           <div
             className="col-md-1 partners-pink"
-            style={{ background: "rgba(255, 96, 97, 0.9)" }}
+            style={{ background: '#90caf9' }}
           />
         </div>
       </div>

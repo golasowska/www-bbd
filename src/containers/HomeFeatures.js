@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-import HomeFeature from "./HomeFeature";
+import HomeFeature from './HomeFeature';
 
 class HomeFeatures extends Component {
   displayHomeFeatures = () => {
@@ -15,7 +15,7 @@ class HomeFeatures extends Component {
     return (
       <div className="features-home">
         <div className="row">
-          <div className="home-section-header background-blue-2 col col-lg-4 white-font d-flex align-items-center">
+          <div className="home-section-header background-blue-2 col col-lg-4 dark-blue d-flex align-items-center">
             <div>Features</div>
           </div>
           <div className="home-section-more background-blue-2 col col-lg-7 d-flex align-items-center red-base justify-content-end">

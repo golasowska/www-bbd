@@ -51,7 +51,7 @@ class AboutUs extends Component {
           {this.displayPeople()}
         </div>
 
-        <Footer bgColor="#446c72" fontColor="#fff" logo={logo_white} />
+        <Footer bgColor="#1c313a" fontColor="#fff" logo={logo_white} />
       </div>
     );
   }

@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { connect } from "react-redux";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
 
-import HomeProduct from "./HomeProduct";
+import HomeProduct from './HomeProduct';
 
 class HomeProducts extends Component {
   displayHomeProducts = () => {
@@ -25,7 +25,7 @@ class HomeProducts extends Component {
         </div>
         <div
           className="row text-center row-products-home"
-          style={{ zIndex: "-50" }}
+          style={{ zIndex: '-50' }}
         >
           {this.displayHomeProducts()}
         </div>
