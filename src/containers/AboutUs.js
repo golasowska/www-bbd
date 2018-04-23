@@ -38,7 +38,7 @@ class AboutUs extends Component {
             </div>
           </div>
           <div
-            className="col-md-7"
+            className="col-md-7 photo-about-desc"
             style={{
               background: `url(${about_photo}) no-repeat center`,
               backgroundSize: "cover",
