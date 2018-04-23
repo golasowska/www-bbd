@@ -1,13 +1,14 @@
 import peop1 from "../assets/images/people/junghee_ryu.png";
-import peop2 from "../assets/images/people/mukesh.png";
-import peop3 from "../assets/images/people/miroslaw.png";
-import peop4 from "../assets/images/people/piotr.png";
-import peop5 from "../assets/images/people/krzysztof.png";
-import peop6 from "../assets/images/people/hubert.png";
-import peop7 from "../assets/images/people/ania.png";
-import peop8 from "../assets/images/people/albert.png";
-import peop9 from "../assets/images/people/soledad.png";
-import peop10 from "../assets/images/people/artur.png";
+import peop2 from "../assets/images/people/adebayo.png";
+import peop3 from "../assets/images/people/mukesh.png";
+import peop4 from "../assets/images/people/miroslaw.png";
+import peop5 from "../assets/images/people/piotr.png";
+import peop6 from "../assets/images/people/krzysztof.png";
+import peop7 from "../assets/images/people/hubert.png";
+import peop8 from "../assets/images/people/ania.png";
+import peop9 from "../assets/images/people/albert.png";
+import peop10 from "../assets/images/people/soledad.png";
+import peop11 from "../assets/images/people/artur.png";
 
 export default function() {
   return [
@@ -16,28 +17,36 @@ export default function() {
       src: `${peop1}`,
       position: "BBOD Enthusiast in South Korea",
       description:
-        "Junghee is passionate about application of elliptic curves post-quantum cryptography into blockchain technologies. In his spare time, he travels and spends time with family. Junghee holds Ph.D degree in Quantum Information Science.",
+        "Junghee is passionate about the application of elliptic curves post-quantum cryptography into blockchain tech. In his spare time he travels and relaxes with his family. Junghee has a Ph.D degree in Quantum Information Science.",
       alt: "junghee"
     },
     {
-      name: "Mukesh Jha",
+      name: "Adebayo",
       src: `${peop2}`,
+      position: "BBOD Enthusiast in Nigeria",
+      description:
+        "Adebayo is a blockchain enthusiast and an experienced cryptocurrency trader.",
+      alt: "adebayo"
+    },
+    {
+      name: "Mukesh Jha",
+      src: `${peop3}`,
       position: "Community Manager in India",
       description:
-        "Mukesh is a blockchain technology and cryptocurrency evangelist. Early adopter of the distributed ledger tech, published many articles and public speaker. The rest time, he spends with his family play games with friends.",
+        "Mukesh is a blockchain technology and cryptocurrency evangelist as well as an early adopter of distributed ledger technology. He published many articles and is an experienced public speaker. Mukesh dedicates his free time to his family and playing games with friends.",
       alt: "mukesh"
     },
     {
       name: "Miroslaw",
-      src: `${peop3}`,
+      src: `${peop4}`,
       position: "Chief of Strategy and Innovation",
       description:
-        "Miroslaw with his input all of our team grind out the best from our abilities. And he is fun to hang out with, too.",
+        "Miroslaw’s  advises the entire team with his business acumen. He helps each member of the BBOD community to grind out his or her best.",
       alt: "miroslaw"
     },
     {
       name: "Peter",
-      src: `${peop4}`,
+      src: `${peop5}`,
       position: "Chief Economist",
       description:
         "Peter holds Ph.D in Economics / Physics and has extensive experience in creating and managing commodities and FX portfolios. He is an experienced futures and options trader and an avid jogger.",
@@ -45,7 +54,7 @@ export default function() {
     },
     {
       name: "Chris",
-      src: `${peop5}`,
+      src: `${peop6}`,
       position: "Chief Technology Officer",
       description:
         "Chris holds Ph.D in Economics / Physics. BBOD’s CTO, who uses his in-depth experience of programming algorithms for trading futures and options  in the commodities and FX markets to ignite the derivatives market for Ethereum. Oh, and he plays a monster guitar.",
@@ -53,7 +62,7 @@ export default function() {
     },
     {
       name: "Hubert",
-      src: `${peop6}`,
+      src: `${peop7}`,
       position: "Director of Business Development and Communications",
       description:
         "Hubert oversees all of BBOD’s international marketing and PR communications. He speaks five languages and for some reason he recommends everyone uses a trampoline to work out.",
@@ -61,7 +70,7 @@ export default function() {
     },
     {
       name: "Anna",
-      src: `${peop7}`,
+      src: `${peop8}`,
       position: "Frontend Developer",
       description:
         "Anna designs, codes, and modifies our websites from design to function.",
@@ -69,7 +78,7 @@ export default function() {
     },
     {
       name: "Albert",
-      src: `${peop8}`,
+      src: `${peop9}`,
       position: "Head of Software Development",
       description:
         "Albert is Ph.D student in Computer Science. He is implementing our software architecture with his magic touch.",
@@ -77,7 +86,7 @@ export default function() {
     },
     {
       name: "Soledad",
-      src: `${peop9}`,
+      src: `${peop10}`,
       position: "Community Coordinator",
       description:
         "Soledad coordinates BBOD’s social media campaigns  accross all platforms in Europe, South East Asia, Africa and South America. When she is not devoting her focus to BBOD she relaxes by painting landscapes, oil on canvas, of course.",
@@ -85,7 +94,7 @@ export default function() {
     },
     {
       name: "Arthur",
-      src: `${peop10}`,
+      src: `${peop11}`,
       position: " IT Specialist",
       description:
         "Arthur develops and maintains BBOD’s IT network, servers and security systems. To customers seeking assistance Arthur is their first, charismatic and knowledgable, contact person.",

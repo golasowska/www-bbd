@@ -51,11 +51,11 @@ export default function() {
       width: "200"
     },
     {
-      name: "Silicon Fen R & D",
+      name: "Gobal Community",
       src: `${f5}`,
       srcLb: `${f5lb}`,
       description:
-        "Cambridge Hub is the centre of global innovation with BBOD as one of emerging leader.",
+        "BBOD’s innovation is managed by a global community of traders.",
       alt: "icon_md",
       width: "200"
     },

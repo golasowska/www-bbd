@@ -16,7 +16,7 @@ export default class HomeAbout extends Component {
           </div>
         </div>
         <div className="row">
-          <div className="col col-md-4 quote-about d-flex justify-content-center align-items-center">
+          <div className="col-md-4 quote-about d-flex justify-content-center align-items-center">
             <div className="m-auto">
               <span className="light-blue">
                 Because BBOD{"'"}s Trading Platform handles <br />
@@ -28,7 +28,7 @@ export default class HomeAbout extends Component {
             </div>
           </div>
 
-          <div className="col col-md-8 quote-about-desc d-flex justify-content-center align-items-center dark-blue">
+          <div className="col-md-8 quote-about-desc d-flex justify-content-center align-items-center dark-blue">
             The Blockchain Board of Derivatives (BBOD) is a cryptocurrency
             derivatives Trading Platform managed by international community.
             Research and Marketing teams are located in diverse locations:

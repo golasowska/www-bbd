@@ -12,7 +12,7 @@ class ContactPerson extends Component {
   render() {
     const { name, country } = this.props.contactPerson;
     return (
-      <div className="col col-md-2 home-feature-item">
+      <div className="col col-md-2 contact-item-col background-blue-1 white-font">
         <div className="contact-item" onClick={this.setMarker}>
           {name}
           <br />

@@ -43,7 +43,7 @@ export default class Newsletter extends Component {
           </div>
         </div>
 
-        <Footer bgColor="#1c313a" fontColor="#fff" logo={logo_white} />
+        <Footer bgColor="#224394" fontColor="#fff" logo={logo_white} />
       </div>
     );
   }
