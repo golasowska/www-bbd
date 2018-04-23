@@ -16,6 +16,7 @@ class App extends Component {
     return (
       <HashRouter>
         <div>
+          <Route component={ScrollToTop} />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route
@@ -49,5 +50,10 @@ class App extends Component {
     );
   }
 }
+
+const ScrollToTop = () => {
+  window.scrollTo(0, 0);
+  return null;
+};
 
 export default App;
