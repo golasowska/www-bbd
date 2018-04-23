@@ -23,7 +23,7 @@ export default class HomeAbout extends Component {
               </span>
               <span className="dark-blue">
                 1,25 million messages/sec <br /> and your funds never leave your
-                crypto-wallet. <br />
+                own crypto-wallet. <br />
               </span>
             </div>
           </div>

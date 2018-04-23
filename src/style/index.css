@@ -874,13 +874,16 @@ label {
     /* animation: resizing-xs 2.5s infinite; */
     font-size: 2rem;
   }
+  .home-banner {
+    margin-bottom: 0;
+  }
 }
 
 /* ********* HOME FEATURES*********   */
 
 @media (max-width: 576px) {
   .features-home {
-    margin-top: 3rem;
+    margin-top: 0;
     margin-bottom: 1rem;
   }
   .home-section-header {
