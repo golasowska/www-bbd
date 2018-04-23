@@ -35,7 +35,7 @@ export default class Contact extends Component {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col col-sm-4 d-flex align-items-center pt-5 offset-md-1">
             <FormContact history={this.props.history} />
           </div>

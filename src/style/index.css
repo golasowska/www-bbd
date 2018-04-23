@@ -216,6 +216,18 @@ body {
   }
 }
 
+@keyframes trade-future-xs {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1.25);
+  }
+}
+
 .enter-anim-first {
   position: relative;
   -webkit-animation-name: enter-text-1;
@@ -238,7 +250,7 @@ body {
 
 @keyframes enter-text-1 {
   0% {
-    left: -500px;
+    left: 0px;
     top: 0px;
     opacity: 0;
   }
@@ -263,7 +275,7 @@ body {
 
 @-webkit-keyframes enter-text-1 {
   0% {
-    left: -500px;
+    left: 0px;
     top: 0px;
     opacity: 0;
   }
@@ -277,12 +289,12 @@ body {
 /* Standard syntax */
 @keyframes enter-text-2 {
   0% {
-    left: -500px;
+    left: 0px;
     top: 0px;
     opacity: 0;
   }
   50% {
-    left: -500px;
+    left: 0px;
     top: 0px;
     opacity: 0;
   }
@@ -295,12 +307,12 @@ body {
 
 @webkit-keyframes enter-text-2 {
   0% {
-    left: -500px;
+    left: 0px;
     top: 0px;
     opacity: 0;
   }
   50% {
-    left: -500px;
+    left: 0px;
     top: 0px;
     opacity: 0;
   }
@@ -662,7 +674,6 @@ label {
 }
 
 .logo-big-contact {
-  width: 400px;
   animation: beat 2.5s infinite;
   height: 500px;
   z-index: 50;
@@ -854,7 +865,7 @@ label {
     font-size: 2.5rem;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
   }
   .logo-big {
     margin-bottom: 60px;
@@ -868,11 +879,17 @@ label {
   }
   .logo-big-1 {
     z-index: 0;
-    top: 50px;
+    top: 400px;
+    height: 200px;
+    max-width: 50%;
+    left: 20%;
   }
   .slogan {
     /* animation: resizing-xs 2.5s infinite; */
     font-size: 2rem;
+  }
+  .slogan:hover {
+    animation: trade-future-xs 2.5s infinite;
   }
   .home-banner {
     margin-bottom: 0;
@@ -977,6 +994,16 @@ label {
 
 /* ********* NEWSLETTER *********   */
 
+@media (max-width: 576px) {
+  .newsletter-logo {
+    height: 250px;
+    width: 250px;
+    top: 180px;
+    right: 100px;
+    display: none;
+  }
+}
+
 /* ********* NEWS *********   */
 @media (max-width: 991px) {
   .news-title {
@@ -1036,6 +1063,9 @@ label {
   }
   .footer-text-header {
     font-size: 1rem;
+  }
+  .logo-big-contact {
+    display: none;
   }
 }
 
@@ -1102,7 +1132,7 @@ label {
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   white-space: normal;
   word-wrap: break-word;
 }
