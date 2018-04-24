@@ -11,7 +11,7 @@ import Newsletter from "../containers/Newsletter";
 import MigrateTokens from "./MigrateTokens";
 
 import ReactGA from "react-ga";
-ReactGA.initialize("UA-106410895");
+ReactGA.initialize("UA-106410895-1");
 ReactGA.pageview(window.location.hash);
 
 class App extends Component {
