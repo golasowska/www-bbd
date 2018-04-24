@@ -12,19 +12,15 @@ import MigrateTokens from "./MigrateTokens";
 
 import ReactGA from "react-ga";
 ReactGA.initialize("UA-106410895");
+ReactGA.pageview(window.location.hash);
 
 class App extends Component {
   render() {
     return (
-      <HashRouter
-        onUpdate={fireTracking => {
-          ReactGA.pageview(window.location.hash);
-        }}
-      >
+      <HashRouter>
         <div>
           <Route component={ScrollToTop} />
           <Switch>
-            <Route exact path="/" component={Home} />
             <Route
               path={`${process.env.PUBLIC_URL}/features`}
               component={Features}
@@ -50,6 +46,7 @@ class App extends Component {
               path={`${process.env.PUBLIC_URL}/migrate-tokens`}
               component={MigrateTokens}
             />
+            <Route exact path="/" component={Home} />
           </Switch>
         </div>
       </HashRouter>
