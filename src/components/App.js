@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, HashRouter } from "react-router-dom";
+import { Route, Switch, Router } from "react-router-dom";
 import { history } from "../store/configureStore";
 
 import Features from "../containers/Features";
@@ -11,10 +11,18 @@ import Contact from "../containers/Contact";
 import Newsletter from "../containers/Newsletter";
 import MigrateTokens from "./MigrateTokens";
 
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-106410895");
+
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <Router
+        history={history}
+        onUpdate={fireTracking => {
+          ReactGA.pageview(window.location.hash);
+        }}
+      >
         <div>
           <Route component={ScrollToTop} />
           <Switch>
@@ -46,7 +54,7 @@ class App extends Component {
             />
           </Switch>
         </div>
-      </HashRouter>
+      </Router>
     );
   }
 }
