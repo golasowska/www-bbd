@@ -23,7 +23,7 @@ export default function() {
     {
       name: "Adebayo",
       src: `${peop2}`,
-      position: "BBOD Enthusiast in Nigeria",
+      position: "Community Manager in Nigeria",
       description:
         "Adebayo is a blockchain enthusiast and an experienced cryptocurrency trader.",
       alt: "adebayo"

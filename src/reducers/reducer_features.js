@@ -60,7 +60,7 @@ export default function() {
       width: "200"
     },
     {
-      name: "Costumers First",
+      name: "Customers First",
       src: `${f6}`,
       srcLb: `${f6lb}`,
       description:

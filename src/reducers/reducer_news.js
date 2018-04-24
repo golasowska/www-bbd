@@ -5,9 +5,9 @@ export default function() {
   return [
     {
       title:
-        "BBOD to launch Ethereum Derivatives and spot exchange in partnership with GMEX Technologies ",
+        "BBOD to launch Ethereum derivatives and spot exchange in partnership with GMEX Technologies",
       url:
-        "https://www.gmex-group.com/press-release-bbod-to-launch-ethereum-derivatives-and-spot-exchange-in-partnership-with-gmex-technologies/",
+        "https://www.hedgeweek.com/2018/03/14/262159/bbod-launch-ethereum-derivatives-and-spot-exchange-partnership-gmex-technologies",
       src: `${news1}`,
       alt: "photo"
     },
