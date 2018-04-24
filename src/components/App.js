@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, Router } from "react-router-dom";
-import { history } from "../store/configureStore";
+import { Route, Switch, HashRouter } from "react-router-dom";
 
 import Features from "../containers/Features";
 import Products from "../containers/Products";
@@ -17,8 +16,7 @@ ReactGA.initialize("UA-106410895");
 class App extends Component {
   render() {
     return (
-      <Router
-        history={history}
+      <HashRouter
         onUpdate={fireTracking => {
           ReactGA.pageview(window.location.hash);
         }}
@@ -54,7 +52,7 @@ class App extends Component {
             />
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
