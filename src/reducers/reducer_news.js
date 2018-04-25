@@ -1,9 +1,18 @@
+import news4 from "../assets/images/bbod_basic.png";
+import news3 from "../assets/images/news/ef.jpg";
 import news2 from "../assets/images/news/bbod_stacked.png";
 import news1 from "../assets/images/news/news2.jpg";
-import news3 from "../assets/images/news/ef.jpg";
 
 export default function() {
   return [
+    {
+      title:
+        "BBOD releases the most demanded cryptocurrency contract in the world: Etherum Futures.",
+      url:
+        "http://www.mondovisione.com/media-and-resources/news/bbod-releases-the-most-demanded-cryptocurrency-contract-in-the-world-ethereum-f/",
+      src: `${news4}`,
+      alt: "photo"
+    },
     {
       title:
         "BBOD releases the most demanded cryptocurrency contract in the world",
