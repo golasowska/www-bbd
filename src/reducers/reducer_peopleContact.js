@@ -8,6 +8,12 @@ export default function() {
     },
     {
       name: "BBOD",
+      country: "Nigeria",
+      lng: "3.406448",
+      lat: "6.465422"
+    },
+    {
+      name: "BBOD",
       country: "India",
       lng: "78.96288000000004",
       lat: "20.593684"

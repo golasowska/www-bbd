@@ -9,6 +9,7 @@ import peop8 from "../assets/images/people/ania.png";
 import peop9 from "../assets/images/people/albert.png";
 import peop10 from "../assets/images/people/soledad.png";
 import peop11 from "../assets/images/people/artur.png";
+import peop12 from "../assets/images/people/ivo.png";
 
 export default function() {
   return [
@@ -39,7 +40,7 @@ export default function() {
     {
       name: "Miroslaw",
       src: `${peop4}`,
-      position: "Chief of Strategy and Innovation",
+      position: "Strategy and Innovation",
       description:
         "Miroslaw’s  advises the entire team with his business acumen. He helps each member of the BBOD community to grind out his or her best.",
       alt: "miroslaw"
@@ -47,23 +48,23 @@ export default function() {
     {
       name: "Peter",
       src: `${peop5}`,
-      position: "Chief Economist",
+      position: "Crypto Economist",
       description:
-        "Peter holds Ph.D in Economics / Physics and has extensive experience in creating and managing commodities and FX portfolios. He is an experienced futures and options trader and an avid jogger.",
+        "Peter holds Ph.D in Economics and has extensive experience in creating and managing commodities and FX portfolios. He is an experienced futures and options trader and an avid jogger.",
       alt: "piotr"
     },
     {
       name: "Chris",
       src: `${peop6}`,
-      position: "Chief Technology Officer",
+      position: "Technology Wizard",
       description:
-        "Chris holds Ph.D in Economics / Physics. BBOD’s CTO, who uses his in-depth experience of programming algorithms for trading futures and options  in the commodities and FX markets to ignite the derivatives market for Ethereum. Oh, and he plays a monster guitar.",
+        "Chris holds Ph.D in Physics. BBOD’s CTO, who uses his in-depth experience of programming algorithms for trading futures and options  in the commodities and FX markets to ignite the derivatives market for Ethereum. Oh, and he plays a monster guitar.",
       alt: "krzysztof"
     },
     {
       name: "Hubert",
       src: `${peop7}`,
-      position: "Director of Business Development and Communications",
+      position: "Business Development and Communications",
       description:
         "Hubert oversees all of BBOD’s international marketing and PR communications. He speaks five languages and for some reason he recommends everyone uses a trampoline to work out.",
       alt: "hubert"
@@ -95,10 +96,18 @@ export default function() {
     {
       name: "Arthur",
       src: `${peop11}`,
-      position: " IT Specialist",
+      position: "IT Specialist",
       description:
         "Arthur develops and maintains BBOD’s IT network, servers and security systems. To customers seeking assistance Arthur is their first, charismatic and knowledgable, contact person.",
       alt: "arthur"
+    },
+    {
+      name: "Ivo",
+      src: `${peop12}`,
+      position: "Blockchain Software Developer",
+      description:
+        "Ivo is responsible for developing innovative solutions to challenging problems, including command and control and high integrity solutions.",
+      alt: "ivo"
     }
   ];
 }
