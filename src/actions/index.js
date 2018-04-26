@@ -4,8 +4,6 @@ export const ADD_TO_NEWSLETTER = "add_to_newsletter";
 export const ADD_TO_MESSAGES = "add_to_messages";
 export const SHOW_MARKER = "show_marker";
 
-console.log("emailjs", emailjs);
-
 export function addToNewsletterList(values, callback) {
   callback();
   return {
