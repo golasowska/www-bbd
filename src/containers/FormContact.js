@@ -6,19 +6,13 @@ import { addToMessages } from "../actions";
 import swal from "sweetalert";
 
 class FormContact extends Component {
-  showDisable = () => {
-    swal("The subscription will start soon!", {
-      buttons: false,
-      timer: 1500
-    });
-  };
   renderField(field) {
     const { meta: { touched, error } } = field;
     const className = `form group ${touched && error ? "has-danger" : ""}`;
     return (
       <div className={className}>
         <label>{field.label}</label>
-        <input type="text" className="form-control" {...field.input} disabled />
+        <input type="text" className="form-control" {...field.input} />
         <div className="text-help">{touched ? error : ""}</div>
       </div>
     );
@@ -30,27 +24,18 @@ class FormContact extends Component {
     return (
       <div className={className}>
         <label>{field.label}</label>
-        <textarea
-          type="text"
-          className="form-control"
-          {...field.input}
-          disabled
-        />
+        <textarea type="text" className="form-control" {...field.input} />
         <div className="text-help">{touched ? error : ""}</div>
       </div>
     );
   }
 
   onSubmit = values => {
-    swal("The subscription will start soon!", {
+    swal("Thanks for contact!", {
       buttons: false,
       timer: 1500
     });
-    setTimeout(
-      () =>
-        this.props.addToMessages(values, () => this.props.history.push("/")),
-      500
-    );
+    this.props.addToMessages(values, () => this.props.history.push("/"));
   };
 
   render() {
@@ -64,11 +49,7 @@ class FormContact extends Component {
           name="message"
           component={this.renderTextArea}
         />
-        <button
-          type="submit"
-          className="btn-newsletter text-uppercase disabled"
-          onClick={this.showDisable}
-        >
+        <button type="submit" className="btn-newsletter text-uppercase">
           Contact us
         </button>
       </form>
