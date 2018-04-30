@@ -7,6 +7,14 @@ export default function() {
   return [
     {
       title:
+        "BBOD launches Ethereum derivatives and spot exchange with GMEX Technologies.",
+      url:
+        "https://radarzero.com/article/355/bbod-launches-ethereum-derivatives-and-spot-exchange-with-gmex-technologies",
+      src: `${news2}`,
+      alt: "photo"
+    },
+    {
+      title:
         "BBOD releases the most demanded cryptocurrency contract in the world: Etherum Futures.",
       url:
         "http://www.mondovisione.com/media-and-resources/news/bbod-releases-the-most-demanded-cryptocurrency-contract-in-the-world-ethereum-f/",

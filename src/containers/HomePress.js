@@ -17,13 +17,31 @@ export default class HomePress extends Component {
           <div className="col col-md-4 partners-white" />
           <div className="col col-md-7 d-flex flex-wrap justify-content-around align-items-center">
             <div className="partner-logo">
-              <img src={press1} height="30" alt="logo" />
+              <a
+                href="https://www.finextra.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={press1} height="30" alt="logo" />
+              </a>
             </div>
             <div className="partner-logo">
-              <img src={press2} height="40" alt="logo_qt" />
+              <a
+                href="http://marketcoinnews.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={press2} height="40" alt="logo_qt" />
+              </a>
             </div>
             <div className="partner-logo">
-              <img src={press3} height="40" alt="logo_qt" />
+              <a
+                href="https://radarzero.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={press3} height="40" alt="logo_qt" />
+              </a>
             </div>
           </div>
         </div>
