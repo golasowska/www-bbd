@@ -21,10 +21,16 @@ class Footer extends Component {
           <Link to="/newsletter" className="col-md-4 btn-footer text-center">
             Newsletter >
           </Link>
-
-          <div className="col-md-7 btn-footer text-center">Trading ></div>
+          <a
+            className="col-md-4 btn-footer text-center"
+            href="https://forum.bbod.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Forum >
+          </a>
+          <div className="col-md-3 btn-footer text-center">Trading ></div>
         </div>
-
         <div
           className="row footer-text"
           style={{

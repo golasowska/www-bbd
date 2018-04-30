@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-import logo from '../assets/images/bbod_white.svg';
+import logo from "../assets/images/bbod_white.svg";
 
 export default class Navigation extends Component {
   render() {
@@ -59,6 +59,16 @@ export default class Navigation extends Component {
                 <Link to="/newsletter" className="nav-link">
                   Newsletter<span className="sr-only">(current)</span>
                 </Link>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="https://forum.bbod.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="nav-link"
+                >
+                  Forum<span className="sr-only">(current)</span>
+                </a>
               </li>
             </ul>
           </div>

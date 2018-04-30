@@ -43,7 +43,7 @@ class Products extends Component {
           {this.displayProducts()}
         </div>
 
-        <Footer bgColor="#224394" fontColor="#fff" logo={logo_white} />
+        <Footer bgColor="#224394" fontColor="#fafafa" logo={logo_white} />
       </div>
     );
   }
