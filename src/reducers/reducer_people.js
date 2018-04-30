@@ -10,6 +10,7 @@ import peop9 from "../assets/images/people/albert.png";
 import peop10 from "../assets/images/people/soledad.png";
 import peop11 from "../assets/images/people/artur.png";
 import peop12 from "../assets/images/people/ivo.png";
+import peop13 from "../assets/images/people/viet.png";
 
 export default function() {
   return [
@@ -28,6 +29,14 @@ export default function() {
       description:
         "Adebayo is a blockchain enthusiast and an experienced cryptocurrency trader.",
       alt: "adebayo"
+    },
+    {
+      name: "Viet Hoang",
+      src: `${peop13}`,
+      position: "Country Manager in Vietnam",
+      description:
+        "Viet is experienced business manager, crypto technology promoter and volunteer. He raises awareness and fund for the kids who born with a cleft lip or cleft  palate.",
+      alt: "viet"
     },
     {
       name: "Mukesh Jha",

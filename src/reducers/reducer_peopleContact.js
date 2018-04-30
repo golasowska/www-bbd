@@ -14,6 +14,12 @@ export default function() {
     },
     {
       name: "BBOD",
+      country: "Vietnam",
+      lng: "106.660172",
+      lat: "10.762622"
+    },
+    {
+      name: "BBOD",
       country: "India",
       lng: "78.96288000000004",
       lat: "20.593684"

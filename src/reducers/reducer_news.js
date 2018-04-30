@@ -1,3 +1,4 @@
+import news5 from "../assets/images/news/ind.jpg";
 import news4 from "../assets/images/bbod_basic.png";
 import news3 from "../assets/images/news/ef.jpg";
 import news2 from "../assets/images/news/bbod_stacked.png";
@@ -5,6 +6,14 @@ import news1 from "../assets/images/news/news2.jpg";
 
 export default function() {
   return [
+    {
+      title:
+        "What is Ethereum? How Bitcoin’s biggest rival could become the world's most valuable cryptocurrency?",
+      url:
+        "https://www.independent.co.uk/life-style/gadgets-and-tech/news/what-is-ethereum-bitcoin-rival-most-valuable-cryptocurrency-a8325856.html",
+      src: `${news5}`,
+      alt: "photo"
+    },
     {
       title:
         "BBOD launches Ethereum derivatives and spot exchange with GMEX Technologies.",
