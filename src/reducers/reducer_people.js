@@ -11,11 +11,22 @@ import peop10 from "../assets/images/people/soledad.png";
 import peop11 from "../assets/images/people/artur.png";
 import peop12 from "../assets/images/people/ivo.png";
 import peop13 from "../assets/images/people/viet.png";
+import peop14 from "../assets/images/people/marcella.png";
+import peop15 from "../assets/images/people/peter.png";
+import peop16 from "../assets/images/people/simone.png";
 
 export default function() {
   return [
     {
-      name: "Junghee Ryu",
+      name: "Marcella",
+      src: `${peop14}`,
+      position: "Country Representative in Brazil",
+      description:
+        "Marcella is experienced journalist and digital marketer. She coordinates BBOD’s activity in Brazil.  Hiking and mountain climbing are two activities that have become her most favourite.",
+      alt: "marcella"
+    },
+    {
+      name: "Junghee",
       src: `${peop1}`,
       position: "BBOD Enthusiast in South Korea",
       description:
@@ -23,28 +34,60 @@ export default function() {
       alt: "junghee"
     },
     {
+      name: "Mukesh",
+      src: `${peop3}`,
+      position: "Country Representative in India",
+      description:
+        "Mukesh is a blockchain technology and cryptocurrency evangelist as well as an early adopter of distributed ledger technology. He published many articles and is an experienced public speaker. Mukesh dedicates his free time to his family and playing games with friends.",
+      alt: "mukesh"
+    },
+    {
       name: "Adebayo",
       src: `${peop2}`,
-      position: "Community Manager in Nigeria",
+      position: "Country Representative in Nigeria",
       description:
         "Adebayo is a blockchain enthusiast and an experienced cryptocurrency trader.",
       alt: "adebayo"
     },
     {
-      name: "Viet Hoang",
+      name: "Viet",
       src: `${peop13}`,
-      position: "Country Manager in Vietnam",
+      position: "Country Representative in Vietnam",
       description:
         "Viet is experienced business manager, crypto technology promoter and volunteer. He raises awareness and fund for the kids who born with a cleft lip or cleft  palate.",
       alt: "viet"
     },
     {
-      name: "Mukesh Jha",
-      src: `${peop3}`,
-      position: "Community Manager in India",
+      name: "Peter",
+      src: `${peop15}`,
+      position: "Country Representative in Tanzania",
       description:
-        "Mukesh is a blockchain technology and cryptocurrency evangelist as well as an early adopter of distributed ledger technology. He published many articles and is an experienced public speaker. Mukesh dedicates his free time to his family and playing games with friends.",
-      alt: "mukesh"
+        "Peter is cryptocurrency evangelist and educator. He coordinates BBOD’s activity in Tanzania.  Peter’s mission is to educate people in Africa about the benefits of using cryptocurrency.",
+      alt: "peter"
+    },
+    {
+      name: "Simone",
+      src: `${peop16}`,
+      position: "PR and Marketing",
+      description:
+        "Simone specializes in intercultural communication and public relations. In her free time, she loves to travel, cook and dance. She is currently pursuing her masters degree in intercultural communication.",
+      alt: "simone"
+    },
+    {
+      name: "Soledad",
+      src: `${peop10}`,
+      position: "Community Coordinator",
+      description:
+        "Soledad coordinates BBOD’s social media campaigns  accross all platforms in Europe, South East Asia, Africa and South America. When she is not devoting her focus to BBOD she relaxes by painting landscapes, oil on canvas, of course.",
+      alt: "soledad"
+    },
+    {
+      name: "Ivo",
+      src: `${peop12}`,
+      position: "Blockchain Software Developer",
+      description:
+        "Ivo is responsible for developing innovative solutions to challenging problems, including command and control and high integrity solutions.",
+      alt: "ivo"
     },
     {
       name: "Miroslaw",
@@ -63,20 +106,20 @@ export default function() {
       alt: "piotr"
     },
     {
-      name: "Chris",
-      src: `${peop6}`,
-      position: "Technology Wizard",
-      description:
-        "Chris holds Ph.D in Physics. BBOD’s CTO, who uses his in-depth experience of programming algorithms for trading futures and options  in the commodities and FX markets to ignite the derivatives market for Ethereum. Oh, and he plays a monster guitar.",
-      alt: "krzysztof"
-    },
-    {
       name: "Hubert",
       src: `${peop7}`,
       position: "Business Development and Communications",
       description:
         "Hubert oversees all of BBOD’s international marketing and PR communications. He speaks five languages and for some reason he recommends everyone uses a trampoline to work out.",
       alt: "hubert"
+    },
+    {
+      name: "Chris",
+      src: `${peop6}`,
+      position: "Technology Wizard",
+      description:
+        "Chris holds Ph.D in Physics. BBOD’s CTO, who uses his in-depth experience of programming algorithms for trading futures and options  in the commodities and FX markets to ignite the derivatives market for Ethereum. Oh, and he plays a monster guitar.",
+      alt: "krzysztof"
     },
     {
       name: "Anna",
@@ -95,28 +138,12 @@ export default function() {
       alt: "albert"
     },
     {
-      name: "Soledad",
-      src: `${peop10}`,
-      position: "Community Coordinator",
-      description:
-        "Soledad coordinates BBOD’s social media campaigns  accross all platforms in Europe, South East Asia, Africa and South America. When she is not devoting her focus to BBOD she relaxes by painting landscapes, oil on canvas, of course.",
-      alt: "soledad"
-    },
-    {
       name: "Arthur",
       src: `${peop11}`,
       position: "IT Specialist",
       description:
         "Arthur develops and maintains BBOD’s IT network, servers and security systems. To customers seeking assistance Arthur is their first, charismatic and knowledgable, contact person.",
       alt: "arthur"
-    },
-    {
-      name: "Ivo",
-      src: `${peop12}`,
-      position: "Blockchain Software Developer",
-      description:
-        "Ivo is responsible for developing innovative solutions to challenging problems, including command and control and high integrity solutions.",
-      alt: "ivo"
     }
   ];
 }

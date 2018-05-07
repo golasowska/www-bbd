@@ -47,9 +47,7 @@ class AboutUs extends Component {
           />
         </div>
 
-        <div className="row text-center justify-content-center">
-          {this.displayPeople()}
-        </div>
+        <div className="row justify-content-center">{this.displayPeople()}</div>
 
         <Footer bgColor="#224394" fontColor="#fafafa" logo={logo_white} />
       </div>

@@ -4,11 +4,11 @@ export default class AboutPerson extends Component {
   render() {
     const { name, src, description, position, alt } = this.props.person;
     return (
-      <div className="col-ml-5 pl-5 pr-5 dark-blue feature-item text-center">
-        <div className="text-center about-person-square  m-auto">
+      <div className="col-ml-5 pl-5 pr-5 dark-blue feature-item">
+        <div className="about-person-square  m-auto">
           <img src={src} className=" about-person-icon" alt={alt} />
-          <div className="about-person-description align-items-center">
-            <div className="feature-description pb-3 pr-1 pl-1 pt-3 about-person-position align-self-center">
+          <div className="about-person-description">
+            <div className="feature-description pb-3 pr-1 pl-1 pt-3 about-person-position text-center">
               {position}
             </div>
             <div className="feature-description pb-3 pr-1 pl-1 pt-3">
