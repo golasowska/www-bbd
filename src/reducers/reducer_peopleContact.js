@@ -2,9 +2,21 @@ export default function() {
   return [
     {
       name: "BBOD",
+      country: "Brazil",
+      lng: "-46.63330940000003",
+      lat: "-23.5505199"
+    },
+    {
+      name: "BBOD",
       country: "South Korea",
       lng: "127.76692200000002",
       lat: "35.907757"
+    },
+    {
+      name: "BBOD",
+      country: "India",
+      lng: "78.96288000000004",
+      lat: "20.593684"
     },
     {
       name: "BBOD",
@@ -20,9 +32,9 @@ export default function() {
     },
     {
       name: "BBOD",
-      country: "India",
-      lng: "78.96288000000004",
-      lat: "20.593684"
+      country: "Tanzania",
+      lng: "34.888822000000005",
+      lat: "-6.369028"
     },
     {
       name: "BBOD",

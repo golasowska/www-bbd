@@ -11,7 +11,7 @@ import about_photo from "../assets/images/about/about_photo.jpg";
 class AboutUs extends Component {
   displayPeople = () => {
     return this.props.people.map(person => {
-      return <AboutPerson key={person.name} person={person} />;
+      return <AboutPerson key={person.description} person={person} />;
     });
   };
 
