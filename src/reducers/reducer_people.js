@@ -14,6 +14,7 @@ import peop13 from "../assets/images/people/viet.png";
 import peop14 from "../assets/images/people/marcella.png";
 import peop15 from "../assets/images/people/peter.png";
 import peop16 from "../assets/images/people/simone.png";
+import peop17 from "../assets/images/people/ryan.png";
 
 export default function() {
   return [
@@ -64,6 +65,14 @@ export default function() {
       description:
         "Peter is cryptocurrency evangelist and educator. He coordinates BBOD’s activity in Tanzania.  Peter’s mission is to educate people in Africa about the benefits of using cryptocurrency.",
       alt: "peter"
+    },
+    {
+      name: "Ryan",
+      src: `${peop17}`,
+      position: "Cryptocurrency Analyst",
+      description:
+        "Ryan studied a BA in Management at the University of Leeds and is currently undergoing Blockchain Research Analyse on behalf of BBOD. He is an avid cryptocurrency investor, with knowledge of financial trading technical analysis and desirable Blockchain business fundamentals, with a passion for the arts and the outdoors.",
+      alt: "ryan"
     },
     {
       name: "Simone",
