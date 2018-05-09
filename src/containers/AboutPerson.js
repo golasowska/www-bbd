@@ -16,7 +16,7 @@ export default class AboutPerson extends Component {
             </div>
           </div>
         </div>
-        <div className="about-person-name  pb-5">{name}</div>
+        <div className="about-person-name text-center pb-5">{name}</div>
       </div>
     );
   }

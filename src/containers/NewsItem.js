@@ -10,12 +10,12 @@ export default class NewsItem extends Component {
             className="news-photo"
             style={{
               background: `url(${src}) no-repeat center`,
-              backgroundSize: "cover"
+              backgroundSize: "contain"
             }}
           />
         </a>
 
-        <div className="news-title">
+        <div className="news-title text-center">
           <a
             className="dark-blue"
             href={url}

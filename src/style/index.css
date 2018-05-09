@@ -471,14 +471,14 @@ body {
 }
 
 .partner-logo {
-  filter: grayscale(100%);
-  opacity: 0.5;
+  filter: grayscale(10%);
+  opacity: 0.9;
   padding: 1rem;
 }
 
 .partner-logo:hover {
-  filter: grayscale(50%);
-  opacity: 1;
+  filter: grayscale(40%);
+  opacity: 0.5;
 }
 
 /* ********* FEATURES *********   */
@@ -594,6 +594,8 @@ body {
   overflow: hidden;
   margin-top: 1rem;
   margin-bottom: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .news-title a {

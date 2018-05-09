@@ -15,6 +15,7 @@ import peop14 from "../assets/images/people/marcella.png";
 import peop15 from "../assets/images/people/peter.png";
 import peop16 from "../assets/images/people/simone.png";
 import peop17 from "../assets/images/people/ryan.png";
+import peop18 from "../assets/images/people/michael.png";
 
 export default function() {
   return [
@@ -153,6 +154,14 @@ export default function() {
       description:
         "Arthur develops and maintains BBOD’s IT network, servers and security systems. To customers seeking assistance Arthur is their first, charismatic and knowledgable, contact person.",
       alt: "arthur"
+    },
+    {
+      name: "Michael",
+      src: `${peop18}`,
+      position: "Key Programmer",
+      description:
+        "Michael is programmer for high-end software solutions. He enables his knowledge and skills to make BBOD-world faster, more robust solution with great features. He likes following economic news.",
+      alt: "michael"
     }
   ];
 }
