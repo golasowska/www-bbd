@@ -75,7 +75,14 @@ class Footer extends Component {
               <p>Resources</p>
             </div>
             <div className="pl-4">
-              <p>Quick Guide</p>
+              <Link
+                to="/quick-guide"
+                style={{
+                  color: this.props.fontColor
+                }}
+              >
+                <p>Quick Guide</p>
+              </Link>
             </div>
             <div className="pl-4">
               <Link
@@ -89,9 +96,6 @@ class Footer extends Component {
             </div>
             <div className="pl-4">
               <p>API Documentations</p>
-            </div>
-            <div className="pl-4">
-              <p>Technical Reference</p>
             </div>
           </div>
 

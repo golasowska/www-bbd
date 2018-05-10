@@ -363,12 +363,12 @@ body {
   }
 }
 
-.quote:hover {
+/* .quote:hover {
   -webkit-animation: swing 1s ease;
   animation: swing 1s ease;
   -webkit-animation-iteration-count: 2;
   animation-iteration-count: 2;
-}
+} */
 
 /* ********* HOME FEATURES*********   */
 

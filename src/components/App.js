@@ -9,6 +9,7 @@ import News from "../containers/News";
 import Contact from "../containers/Contact";
 import Newsletter from "../containers/Newsletter";
 import MigrateTokens from "./MigrateTokens";
+import QuickGuide from "./QuickGuide";
 
 import ReactGA from "react-ga";
 ReactGA.initialize("UA-106410895-1");
@@ -45,6 +46,10 @@ class App extends Component {
             <Route
               path={`${process.env.PUBLIC_URL}/migrate-tokens`}
               component={MigrateTokens}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/quick-guide`}
+              component={QuickGuide}
             />
             <Route exact path="/" component={Home} />
           </Switch>
