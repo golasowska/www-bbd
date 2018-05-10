@@ -148,20 +148,20 @@ export default function() {
       alt: "albert"
     },
     {
+      name: "Michael",
+      src: `${peop18}`,
+      position: "Head of Software Engineering",
+      description:
+        "Michael is programmer for high-end software solutions. He enables his knowledge and skills to make BBOD-world faster, more robust solution with great features. He likes following economic news.",
+      alt: "michael"
+    },
+    {
       name: "Arthur",
       src: `${peop11}`,
       position: "IT Specialist",
       description:
         "Arthur develops and maintains BBOD’s IT network, servers and security systems. To customers seeking assistance Arthur is their first, charismatic and knowledgable, contact person.",
       alt: "arthur"
-    },
-    {
-      name: "Michael",
-      src: `${peop18}`,
-      position: "Key Programmer",
-      description:
-        "Michael is programmer for high-end software solutions. He enables his knowledge and skills to make BBOD-world faster, more robust solution with great features. He likes following economic news.",
-      alt: "michael"
     }
   ];
 }
