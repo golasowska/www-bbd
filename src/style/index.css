@@ -164,6 +164,7 @@ body {
   position: absolute;
   height: 400px;
   top: 150px;
+  left: 30%;
   z-index: 50;
 }
 
@@ -973,6 +974,7 @@ label {
     animation: beat-xs 2.5s infinite;
     z-index: 0;
     top: 100px;
+    left: 10%;
   }
   .logo-big-0 {
     z-index: 0;
@@ -1134,6 +1136,9 @@ label {
   .row-map-marker {
     background: #224394;
   }
+  .logo-big {
+    left: 10%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1174,6 +1179,9 @@ label {
 @media (max-width: 375px) {
   .logo-big-contact {
     display: none;
+  }
+  .logo-big {
+    left: 0;
   }
 }
 

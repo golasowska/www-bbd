@@ -15,6 +15,13 @@ export default class HomeBanner extends Component {
             backgroundSize: "contain"
           }}
         />
+        <div
+          className="col-md-6 d-flex justify-content-center align-items-center logo-big"
+          style={{
+            background: `url(${logo_bbod}) no-repeat center`,
+            backgroundSize: "contain"
+          }}
+        />
         <div className="row">
           <div className="slogan text-center col-md-12">Trade the Future</div>
           <div className="col-md-12 quote d-flex justify-content-center align-items-center text-left">
@@ -33,13 +40,6 @@ export default class HomeBanner extends Component {
               </Link>
             </div>
           </div>
-          <div
-            className="col-md-12 d-flex justify-content-center align-items-center logo-big"
-            style={{
-              background: `url(${logo_bbod}) no-repeat center`,
-              backgroundSize: "contain"
-            }}
-          />
         </div>
       </div>
     );
