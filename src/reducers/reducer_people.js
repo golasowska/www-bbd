@@ -16,6 +16,8 @@ import peop15 from "../assets/images/people/peter.png";
 import peop16 from "../assets/images/people/simone.png";
 import peop17 from "../assets/images/people/ryan.png";
 import peop18 from "../assets/images/people/michael.png";
+import peop19 from "../assets/images/people/Екатерина.png";
+import peop20 from "../assets/images/people/youngshil.png";
 
 export default function() {
   return [
@@ -28,12 +30,28 @@ export default function() {
       alt: "marcella"
     },
     {
+      name: "Youngshil",
+      src: `${peop20}`,
+      position: "Country Representative in South Korea",
+      description:
+        "Youngshil is responsible for BBOD marketing in the South Korea. She’s been working in the IT marketing since many years. She like playing with her cat, cooking and singing.",
+      alt: "youngshil"
+    },
+    {
       name: "Junghee",
       src: `${peop1}`,
       position: "BBOD Enthusiast in South Korea",
       description:
         "Junghee is passionate about the application of elliptic curves post-quantum cryptography into blockchain tech. In his spare time he travels and relaxes with his family. Junghee has a Ph.D degree in Quantum Information Science.",
       alt: "junghee"
+    },
+    {
+      name: "Екатерина",
+      src: `${peop19}`,
+      position: "Contry Representative in Russia",
+      description:
+        "Catherine is responsible for BBOD marketing in the Russian segment. She’s been working in the IT marketing since 2008 and has a positive experience in raising several IT projects from zero-level to significant heights.",
+      alt: "eкатерина"
     },
     {
       name: "Mukesh",
