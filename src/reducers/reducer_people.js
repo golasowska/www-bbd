@@ -10,7 +10,7 @@ import peop9 from "../assets/images/people/albert.png";
 import peop10 from "../assets/images/people/soledad.png";
 import peop11 from "../assets/images/people/artur.png";
 import peop12 from "../assets/images/people/ivo.png";
-import peop13 from "../assets/images/people/viet.png";
+import peop13 from "../assets/images/people/lam.png";
 import peop14 from "../assets/images/people/marcella.png";
 import peop15 from "../assets/images/people/peter.png";
 import peop16 from "../assets/images/people/simone.png";
@@ -18,6 +18,7 @@ import peop17 from "../assets/images/people/ryan.png";
 import peop18 from "../assets/images/people/michael.png";
 import peop19 from "../assets/images/people/Екатерина.png";
 import peop20 from "../assets/images/people/youngshil.png";
+import peop21 from "../assets/images/people/ashish.png";
 
 export default function() {
   return [
@@ -70,12 +71,12 @@ export default function() {
       alt: "adebayo"
     },
     {
-      name: "Viet",
+      name: "Lam",
       src: `${peop13}`,
-      position: "Country Representative in Vietnam",
+      position: "Country Manager in Vietnam",
       description:
-        "Viet is experienced business manager, crypto technology promoter and volunteer. He raises awareness and fund for the kids who born with a cleft lip or cleft  palate.",
-      alt: "viet"
+        "Lam is a crypto enthusiast and a freelancer who is willing to learn new things and  desires to see how cryptos will revolutionize the financial world.",
+      alt: "lam"
     },
     {
       name: "Peter",
@@ -84,6 +85,14 @@ export default function() {
       description:
         "Peter is cryptocurrency evangelist and educator. He coordinates BBOD’s activity in Tanzania.  Peter’s mission is to educate people in Africa about the benefits of using cryptocurrency.",
       alt: "peter"
+    },
+    {
+      name: "Ashish",
+      src: `${peop21}`,
+      position: "Blockchain Researcher",
+      description:
+        "Ashish likes to read anything that he gets his hands on. When he is not preaching about the tech behind Blockchain, he is smitten by outer space and the beauty of astrophysics. He plans to read 180 books this year.",
+      alt: "ashish"
     },
     {
       name: "Ryan",
