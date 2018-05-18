@@ -25,7 +25,7 @@ export default function() {
     {
       name: "Marcella",
       src: `${peop14}`,
-      position: "Country Representative in Brazil",
+      position: "Country Representative Brazil",
       description:
         "Marcella is experienced journalist and digital marketer. She coordinates BBOD’s activity in Brazil.  Hiking and mountain climbing are two activities that have become her most favourite.",
       alt: "marcella"
@@ -33,7 +33,7 @@ export default function() {
     {
       name: "Youngshil",
       src: `${peop20}`,
-      position: "Country Representative in South Korea",
+      position: "Country Representative South Korea",
       description:
         "Youngshil is responsible for BBOD marketing in the South Korea. She’s been working in the IT marketing since many years. She like playing with her cat, cooking and singing.",
       alt: "youngshil"
@@ -49,7 +49,7 @@ export default function() {
     {
       name: "Екатерина",
       src: `${peop19}`,
-      position: "Contry Representative in Russia",
+      position: "Contry Representative Russia",
       description:
         "Catherine is responsible for BBOD marketing in the Russian segment. She’s been working in the IT marketing since 2008 and has a positive experience in raising several IT projects from zero-level to significant heights.",
       alt: "eкатерина"
@@ -57,7 +57,7 @@ export default function() {
     {
       name: "Mukesh",
       src: `${peop3}`,
-      position: "Country Representative in India",
+      position: "Country Representative India",
       description:
         "Mukesh is a blockchain technology and cryptocurrency evangelist as well as an early adopter of distributed ledger technology. He published many articles and is an experienced public speaker. Mukesh dedicates his free time to his family and playing games with friends.",
       alt: "mukesh"
@@ -65,7 +65,7 @@ export default function() {
     {
       name: "Adebayo",
       src: `${peop2}`,
-      position: "Country Representative in Nigeria",
+      position: "Country Representative Nigeria",
       description:
         "Adebayo is a blockchain enthusiast and an experienced cryptocurrency trader.",
       alt: "adebayo"
@@ -81,7 +81,7 @@ export default function() {
     {
       name: "Peter",
       src: `${peop15}`,
-      position: "Country Representative in Tanzania",
+      position: "Country Representative Tanzania",
       description:
         "Peter is cryptocurrency evangelist and educator. He coordinates BBOD’s activity in Tanzania.  Peter’s mission is to educate people in Africa about the benefits of using cryptocurrency.",
       alt: "peter"

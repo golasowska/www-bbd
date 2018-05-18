@@ -8,6 +8,14 @@ export default function() {
   return [
     {
       title:
+        "BBOD (The Blockchain Board of Derivatives) releases the most demanded cryptocurrency contract in the world: Ethereum Futures.",
+      url:
+        "http://www.techsutram.com/2018/05/bbod-releases-most-demanded-cryptocurrency-contract-ethereum-futures.html",
+      src: `${news4}`,
+      alt: "photo"
+    },
+    {
+      title:
         "What is Ethereum? How Bitcoin’s biggest rival could become the world's most valuable cryptocurrency?",
       url:
         "https://www.independent.co.uk/life-style/gadgets-and-tech/news/what-is-ethereum-bitcoin-rival-most-valuable-cryptocurrency-a8325856.html",

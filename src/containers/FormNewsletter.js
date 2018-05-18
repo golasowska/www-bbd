@@ -18,7 +18,7 @@ class FormNewsletter extends Component {
     return (
       <div className={className}>
         <label>{field.label}</label>
-        <input type="text" className="form-control" {...field.input} />
+        <input type="text" className="form-control" {...field.input} disabled />
         <div className="text-help">{touched ? error : ""}</div>
       </div>
     );
