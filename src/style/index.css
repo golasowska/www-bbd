@@ -698,6 +698,13 @@ body {
 label {
   color: #001c33;
 }
+/* ********* QUICK GUIDE *********   */
+
+.qg {
+  text-align: center;
+  display: inline-block;
+  scale: 1.2;
+}
 
 /* ********* MAP *********   */
 
