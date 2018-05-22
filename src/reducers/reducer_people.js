@@ -40,20 +40,20 @@ export default function() {
       alt: "youngshil"
     },
     {
-      name: "Junghee",
-      src: `${peop1}`,
-      position: "BBOD Enthusiast in South Korea",
-      description:
-        "Junghee is passionate about the application of elliptic curves post-quantum cryptography into blockchain tech. In his spare time he travels and relaxes with his family. Junghee has a Ph.D degree in Quantum Information Science.",
-      alt: "junghee"
-    },
-    {
       name: "Yang",
       src: `${peop22}`,
       position: "Country Representative China",
       description:
         "Yang takes care of Chinese-speaking community of BBOD.  Yang is proactive marketing specialist and cryptocurrency enthusiast.",
       alt: "yang"
+    },
+    {
+      name: "Junghee",
+      src: `${peop1}`,
+      position: "BBOD Enthusiast in South Korea",
+      description:
+        "Junghee is passionate about the application of elliptic curves post-quantum cryptography into blockchain tech. In his spare time he travels and relaxes with his family. Junghee has a Ph.D degree in Quantum Information Science.",
+      alt: "junghee"
     },
     {
       name: "Екатерина",
