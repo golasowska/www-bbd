@@ -12,15 +12,13 @@ export default class QuickGuide extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      numPages: null,
-      pageNumber: 1
+      numPages: null
     };
   }
   onDocumentLoad = ({ numPages }) => {
     this.setState({ numPages });
   };
   render() {
-    const { pageNumber, numPages } = this.state;
     return (
       <div>
         <Navigation />
