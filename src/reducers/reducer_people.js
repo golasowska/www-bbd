@@ -1,6 +1,5 @@
 import peop1 from "../assets/images/people/junghee_ryu.png";
 import peop2 from "../assets/images/people/adebayo.png";
-import peop3 from "../assets/images/people/mukesh.png";
 import peop4 from "../assets/images/people/miroslaw.png";
 import peop5 from "../assets/images/people/piotr.png";
 import peop6 from "../assets/images/people/krzysztof.png";
@@ -10,7 +9,6 @@ import peop9 from "../assets/images/people/albert.png";
 import peop10 from "../assets/images/people/soledad.png";
 import peop11 from "../assets/images/people/artur.png";
 import peop12 from "../assets/images/people/ivo.png";
-import peop13 from "../assets/images/people/lam.png";
 import peop14 from "../assets/images/people/marcella.png";
 import peop15 from "../assets/images/people/peter.png";
 import peop16 from "../assets/images/people/simone.png";
@@ -64,28 +62,12 @@ export default function() {
       alt: "eкатерина"
     },
     {
-      name: "Mukesh",
-      src: `${peop3}`,
-      position: "Country Representative India",
-      description:
-        "Mukesh is a blockchain technology and cryptocurrency evangelist as well as an early adopter of distributed ledger technology. He published many articles and is an experienced public speaker. Mukesh dedicates his free time to his family and playing games with friends.",
-      alt: "mukesh"
-    },
-    {
       name: "Adebayo",
       src: `${peop2}`,
       position: "Country Representative Nigeria",
       description:
         "Adebayo is a blockchain enthusiast and an experienced cryptocurrency trader.",
       alt: "adebayo"
-    },
-    {
-      name: "Lam",
-      src: `${peop13}`,
-      position: "Country Manager in Vietnam",
-      description:
-        "Lam is a crypto enthusiast and a freelancer who is willing to learn new things and  desires to see how cryptos will revolutionize the financial world.",
-      alt: "lam"
     },
     {
       name: "Peter",
@@ -98,7 +80,7 @@ export default function() {
     {
       name: "Ashish",
       src: `${peop21}`,
-      position: "Blockchain Researcher",
+      position: "Country Representative India",
       description:
         "Ashish likes to read anything that he gets his hands on. When he is not preaching about the tech behind Blockchain, he is smitten by outer space and the beauty of astrophysics. He plans to read 180 books this year.",
       alt: "ashish"
